@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.zengwy.com/2018/06/19/cv/</loc>
+    <lastmod>2018-06-24T11:48:06.608Z</lastmod>
+    <data>
+        <display>
+        <title>个人简历</title>
+        <pubTime>2018-06-19T01:45:25.000Z</pubTime>
+        
+        <tag>基本资料</tag>
+         
+        <tag>学历学位</tag>
+         
+        <tag>取得证书</tag>
+         
+        <tag>获得荣誉</tag>
+         
+         
+           
+             
+              <breadCrumb title="简历" url="http://www.zengwy.com/categories/%E7%AE%80%E5%8E%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://www.zengwy.com/2017/10/23/au1/</loc>
+    <lastmod>2017-10-25T09:03:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>让声音更加浑厚——效果器EQ详解</title>
+        <pubTime>2017-10-23T06:51:53.000Z</pubTime>
+        
+        <tag>效果器</tag>
+         
+        <tag>教程</tag>
+         
+        <tag>EQ</tag>
+         
+        <tag>doyoudo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Audition" url="http://www.zengwy.com/categories/Audition/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.zengwy.com/2016/12/23/hexo/</loc>
+    <lastmod>2016-12-25T09:03:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>Github上配置Hexo 3.0</title>
+        <pubTime>2016-12-23T06:51:53.000Z</pubTime>
+        
+        <tag>GitHub</tag>
+         
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://www.zengwy.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.zengwy.com/2015/04/19/shadowsocks/</loc>
+    <lastmod>2015-04-21T09:31:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>Shadowsocks的搭建</title>
+        <pubTime>2015-04-19T01:45:25.000Z</pubTime>
+        
+        <tag>DigitalOcean</tag>
+         
+        <tag>Google</tag>
+         
+        <tag>IPv6</tag>
+         
+        <tag>ShadowSocks</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>锐速</tag>
+         
+         
+           
+             
+              <breadCrumb title="科学上网" url="http://www.zengwy.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.zengwy.com/2013/07/13/hello-world/</loc>
+    <lastmod>2013-07-17T12:33:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>你好 Hexo</title>
+        <pubTime>2013-07-13T12:46:25.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="互联网建站" url="http://www.zengwy.com/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%BB%BA%E7%AB%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
