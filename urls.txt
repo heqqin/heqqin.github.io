@@ -1,0 +1,2 @@
+﻿curl -H 'Content-Type:text/plain' --data-binary @urls.txt
+"http://data.zz.baidu.com/urls?site=www.zengwy.com&token=yHQB6GYDVbFMBQXa"
