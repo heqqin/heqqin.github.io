@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://www.zengwy.com/2018/06/19/cv/</loc>
-    <lastmod>2018-06-25T02:19:17.065Z</lastmod>
+    <loc>http://www.zengwy.com/2018/06/20/cv/</loc>
+    <lastmod>2018-06-27T04:33:54.182Z</lastmod>
     <data>
         <display>
         <title>个人简历</title>
-        <pubTime>2018-06-19T01:45:25.000Z</pubTime>
+        <pubTime>2018-06-20T01:45:25.000Z</pubTime>
         
         <tag>基本资料</tag>
          
@@ -31,6 +31,38 @@
     
     
     
+    
+  <url>
+    <loc>http://www.zengwy.com/2018/06/18/fx_t1/</loc>
+    <lastmod>2018-06-20T09:31:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>斐讯T1盒子破解使用</title>
+        <pubTime>2018-06-18T11:25:27.000Z</pubTime>
+        
+        <tag>电视盒子</tag>
+         
+        <tag>GoogleServicesFramework</tag>
+         
+        <tag>adb</tag>
+         
+        <tag>IPTV</tag>
+         
+        <tag>T1</tag>
+         
+        <tag>系统降级</tag>
+         
+        <tag>第三方固件</tag>
+         
+         
+           
+             
+              <breadCrumb title="科学上网" url="http://www.zengwy.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://www.zengwy.com/2017/10/23/au1/</loc>
@@ -66,9 +98,9 @@
         <title>Github上配置Hexo 3.0</title>
         <pubTime>2016-12-23T06:51:53.000Z</pubTime>
         
-        <tag>GitHub</tag>
-         
         <tag>Hexo</tag>
+         
+        <tag>GitHub</tag>
          
          
            
