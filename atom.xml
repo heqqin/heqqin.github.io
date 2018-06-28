@@ -138,9 +138,33 @@
       <category term="Hexo" scheme="http://www.zengwy.com/categories/Hexo/"/>
     
     
+      <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
+    
       <category term="GitHub" scheme="http://www.zengwy.com/tags/GitHub/"/>
     
+  </entry>
+  
+  <entry>
+    <title>你好 Hexo</title>
+    <link href="http://www.zengwy.com/2015/07/13/hello-world/"/>
+    <id>http://www.zengwy.com/2015/07/13/hello-world/</id>
+    <published>2015-07-13T12:46:25.000Z</published>
+    <updated>2015-07-17T12:33:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。<br>在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。<br>查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。<br>虽然过不了多久死于插件升级无法恢复，又重新搭了一次。<br>但WordPress确实非常非常的强大。</p><a id="more"></a><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>偶然在知乎上看到：</p><blockquote><p>Markdown语法 是程序员必备技巧</p></blockquote><p>用过之后简直cooooooooooooooool。<br>过去wordpress上简陋的写了那么几篇后，也算是明白为何大牛的文章排版是那么的高大上。</p><p>将本地文章存档改成Markdown语法后，迫不及待的想在WordPress实现。<br>尝试了几个插件，发现这有点难：</p><ol><li>JecPack作为官方的插件，却因为GFW的问题无法连接，我SS试了DO和BWG2个机房也无济于事，原因不明。</li><li>JP Markdown是将JecPack中的Markdown组件单独拿出来，但并没有什么效果，可能是我语法不规范造成的原因，不过现在也无法去验证。</li><li>WP-Markdown和PrettyPress 加上代码高亮插件后，已经很好的实现Markdown。但并没有让我感到非常的满意，同时我也没继续深入设置这些插件了。</li></ol><h2 id="真正原因"><a href="#真正原因" class="headerlink" title="真正原因"></a>真正原因</h2><p>整个折腾过程中，电信的国际出口流量已经差让我抓狂。<br>无论是用DO还是BWG机房的SS，在wordpress后台上的每一步操作都慢的让人崩溃，还时不时的丢包未响应。<br>我也是实在是不想每几周就换一次DO机房的IP了（学生狗也没钱去买阿里云中转）</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>查Markdown资料的过程中，对部分资料中提到的寄托在Github上的静态博客程序Hexo感兴趣。</p><blockquote><p>全静态化，响应速度快，轻量级等优点，是wp没法比的 —-echopan </p></blockquote><p>折腾好几天才完成Hexo的搭建，最大的问题却源于一个小小错误，具体内容会在之后的《Github上搭建Hexo》具体说明。<br>酷炫的界面，畅快的响应速度，Markdown的强大支撑，建成后的Hexo令我非常非常满足。<br>同时也深刻体验到git的便捷之处。</p><h2 id="To-The-New-World"><a href="#To-The-New-World" class="headerlink" title="To The New World"></a>To The New World</h2><p>已经陆陆续续的将以前写的部分日志搬了回来，在Markdown语法下重新梳理似乎更加有了些秩序。<br>后面的一段时间内，本Blog也应该不会有什么大的改动了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。&lt;br&gt;在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。&lt;br&gt;查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。&lt;br&gt;虽然过不了多久死于插件升级无法恢复，又重新搭了一次。&lt;br&gt;但WordPress确实非常非常的强大。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="互联网建站" scheme="http://www.zengwy.com/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%BB%BA%E7%AB%99/"/>
+    
+    
       <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://www.zengwy.com/tags/Markdown/"/>
     
   </entry>
   
@@ -178,30 +202,6 @@
       <category term="VPS" scheme="http://www.zengwy.com/tags/VPS/"/>
     
       <category term="锐速" scheme="http://www.zengwy.com/tags/%E9%94%90%E9%80%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>你好 Hexo</title>
-    <link href="http://www.zengwy.com/2013/07/13/hello-world/"/>
-    <id>http://www.zengwy.com/2013/07/13/hello-world/</id>
-    <published>2013-07-13T12:46:25.000Z</published>
-    <updated>2013-07-17T12:33:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。<br>在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。<br>查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。<br>虽然过不了多久死于插件升级无法恢复，又重新搭了一次。<br>但WordPress确实非常非常的强大。</p><a id="more"></a><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>偶然在知乎上看到：</p><blockquote><p>Markdown语法 是程序员必备技巧</p></blockquote><p>用过之后简直cooooooooooooooool。<br>过去wordpress上简陋的写了那么几篇后，也算是明白为何大牛的文章排版是那么的高大上。</p><p>将本地文章存档改成Markdown语法后，迫不及待的想在WordPress实现。<br>尝试了几个插件，发现这有点难：</p><ol><li>JecPack作为官方的插件，却因为GFW的问题无法连接，我SS试了DO和BWG2个机房也无济于事，原因不明。</li><li>JP Markdown是将JecPack中的Markdown组件单独拿出来，但并没有什么效果，可能是我语法不规范造成的原因，不过现在也无法去验证。</li><li>WP-Markdown和PrettyPress 加上代码高亮插件后，已经很好的实现Markdown。但并没有让我感到非常的满意，同时我也没继续深入设置这些插件了。</li></ol><h2 id="真正原因"><a href="#真正原因" class="headerlink" title="真正原因"></a>真正原因</h2><p>整个折腾过程中，电信的国际出口流量已经差让我抓狂。<br>无论是用DO还是BWG机房的SS，在wordpress后台上的每一步操作都慢的让人崩溃，还时不时的丢包未响应。<br>我也是实在是不想每几周就换一次DO机房的IP了（学生狗也没钱去买阿里云中转）</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>查Markdown资料的过程中，对部分资料中提到的寄托在Github上的静态博客程序Hexo感兴趣。</p><blockquote><p>全静态化，响应速度快，轻量级等优点，是wp没法比的 —-echopan </p></blockquote><p>折腾好几天才完成Hexo的搭建，最大的问题却源于一个小小错误，具体内容会在之后的《Github上搭建Hexo》具体说明。<br>酷炫的界面，畅快的响应速度，Markdown的强大支撑，建成后的Hexo令我非常非常满足。<br>同时也深刻体验到git的便捷之处。</p><h2 id="To-The-New-World"><a href="#To-The-New-World" class="headerlink" title="To The New World"></a>To The New World</h2><p>已经陆陆续续的将以前写的部分日志搬了回来，在Markdown语法下重新梳理似乎更加有了些秩序。<br>后面的一段时间内，本Blog也应该不会有什么大的改动了。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。&lt;br&gt;在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。&lt;br&gt;查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。&lt;br&gt;虽然过不了多久死于插件升级无法恢复，又重新搭了一次。&lt;br&gt;但WordPress确实非常非常的强大。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="互联网建站" scheme="http://www.zengwy.com/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%BB%BA%E7%AB%99/"/>
-    
-    
-      <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
-    
-      <category term="Markdown" scheme="http://www.zengwy.com/tags/Markdown/"/>
     
   </entry>
   
