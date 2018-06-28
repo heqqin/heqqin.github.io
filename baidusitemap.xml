@@ -98,14 +98,44 @@
         <title>Github上配置Hexo 3.0</title>
         <pubTime>2016-12-23T06:51:53.000Z</pubTime>
         
-        <tag>Hexo</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Hexo</tag>
          
          
            
              
               <breadCrumb title="Hexo" url="http://www.zengwy.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.zengwy.com/2016/04/19/shadowsocks/</loc>
+    <lastmod>2016-04-21T09:31:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>Shadowsocks的搭建</title>
+        <pubTime>2016-04-19T01:45:25.000Z</pubTime>
+        
+        <tag>DigitalOcean</tag>
+         
+        <tag>Google</tag>
+         
+        <tag>IPv6</tag>
+         
+        <tag>ShadowSocks</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>锐速</tag>
+         
+         
+           
+             
+              <breadCrumb title="科学上网" url="http://www.zengwy.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
           
         </display>
     </data>
@@ -128,36 +158,6 @@
            
              
               <breadCrumb title="互联网建站" url="http://www.zengwy.com/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%BB%BA%E7%AB%99/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.zengwy.com/2015/04/19/shadowsocks/</loc>
-    <lastmod>2015-04-21T09:31:20.000Z</lastmod>
-    <data>
-        <display>
-        <title>Shadowsocks的搭建</title>
-        <pubTime>2015-04-19T01:45:25.000Z</pubTime>
-        
-        <tag>DigitalOcean</tag>
-         
-        <tag>Google</tag>
-         
-        <tag>IPv6</tag>
-         
-        <tag>ShadowSocks</tag>
-         
-        <tag>VPS</tag>
-         
-        <tag>锐速</tag>
-         
-         
-           
-             
-              <breadCrumb title="科学上网" url="http://www.zengwy.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
           
         </display>
     </data>

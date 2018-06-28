@@ -53,8 +53,24 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>GitHub</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Shadowsocks的搭建]]></title>
+    <url>%2F2016%2F04%2F19%2Fshadowsocks%2F</url>
+    <content type="text"><![CDATA[VPSDigitalOcean Github的学生礼包赠送$100的赞助,可供使用20个月,现在是否还支持国内大学邮箱不确定，若干兑换码无法使用，在Support中Open a Support Ticket联系DO让他们帮助你。 DO首次充值 $5(最低)还会赠送$10。 电信平常速度仅300K/s左右(旧金山,新加坡机房),搭配上锐速,100M电信情况下最高达到过9M/s,Youtube1080P无压力,Twitch在换了SSR后已经无法流畅观看，原因未知。 使用几周后就会出现大规模的抽风,经测试是四川电信宽带的问题 Bandwagon 大名鼎鼎的搬瓦工,支持支付宝,以前便宜的包年$3.99/,$4.99已经没货了,最便宜的已达到$20一年 四川电信网络下表现仅有100~200K/s,学校移动宽带表现不错可达1M/s(满速). 支持一键搭建shadowsocks,很方便 电信 电信国际出口流量大规模丢包问题在知乎上找到了相关解答,解决方案似乎只有换网络商或者走CN2路线中转。 Shadowsocks的搭建DigitalOcean为例部署 Droplet创建 在官网右上角点击CreateDroplet,选择最低的$5/mo,仅用于翻墙已经足够了 服务器测速后进行选择 Linux系统在锐速支持列表选择一持,如果没有,在创建好Droplte也可以在之后更换内核 在邮箱查收IP地址,用户名,密码 Putty 后续操作都要通过Putty连接VPS完成 下载安装Putty后打开,输入邮件里的IP,连接方式SSH,端口22 输入用户,密码(输入密码时并不会显示任何字符包括*,输完回车即可),密码需要连续输入2次,复制后右击即可粘贴成功,之后在输入两次新的密码 基本库安装 由于Shadowsocks原作者clowwindy被请喝茶,这里使用breakwa11的shadowsocksR,(目测breakwa11也暂时不维护了) 以下命令均以root用户执行(复制,右击复制回车即可) 0centos： 1yum install m2crypto git libsodium ubuntu/debian： 1apt-get install m2crypto git 获取源代码1git clone -b manyuser https://github.com/breakwa11/shadowsocks.git 执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。 根目录即 ./shadowsocks 子目录即 ./shadowsocks/shadowsocks 服务端配置进入子目录：1cd shadowsocks/shadowsocks Vim编辑器 Vim编辑器没接触过的人肯定不会用 这里简单以编写配置文件来说明下搭建shadowsocks时用到的命令 建立配置文件 ,会看到简单的json文件内容 1vi /etc/shadowsocks.json 输入i 回车,进入插入模式 写入以下内容,完成后输入 :wq 即可保存退出 12345678910111213&#123; "server":"0.0.0.0", "server_ipv6":"::", "server_port":8388, "local_address":"127.0.0.1", "local_port":1080, "password":"mypassword", "timeout":300, "method":"aes-256-cfb", "obfs":"http_simple", "fast_open":false, "workers":1&#125; 一般情况下，只需要修改以下五项即可： 12345"server_port":8388, //端口"password":"password", //密码"protocol":"origin", //协议插件"obfs":"http_simple", //混淆插件"method":"aes-256-cfb", //加密方式 ###运行服务运行子目录内的server.py： 1python server.py -c /etc/shadowsocks.json 如果要在后台运行： 1python server.py -c /etc/shadowsocks.json -d start 如果要停止/重启： 1python server.py -c /etc/shadowsocks.json -d restart 查看日志： 1tail -f /var/log/shadowsocks.log 更新源代码如果代码有更新可用本命令更新代码进入shadowsocks目录 1cd shadowsocks 执行 1git pull 成功后重启ss服务 IPv6解决google学术被墙,google搜索验证码 DigtalOcean的部分IP会被Google学术屏蔽,修改hosts强制使用IPv6访问 最近Google搜索也经常验证码,还是得通过改hosts解决 IPv6解决验证码不起作用,几天后还是出现了验证码,在Google+上看到别人讨论,似乎google封了DO部分服务器,唉,换IP吧 创建vps时勾选IPv61vi /etc/hosts 文本末端加入 1234562607:f8b0:4005:801::200e google.com2607:f8b0:4005:801::200e www.google.com2607:f8b0:4007:805::100fscholar.google.cn2607:f8b0:4007:805::100fscholar.google.com2607:f8b0:4007:805::100fscholar.google.com.hk2607:f8b0:4007:805::100fscholar.l.google.com 更改时区SSR的部分插件需要本地时间和VPS时间相差不超过X分钟需要更改VPS的时区 12rm -rf /etc/localtimeln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 阻止百毒IP定位逛V2EX时候发现了这么一个问题,查了下SS的IP果然被定位了,虽然是我朋友家- - SSR作者提供了这么一个解决方案 在代理服务器及本地的HOST都添加如下 123456789101112131415161.0.0.1 api.map.baidu.com1.0.0.1 ps.map.baidu.com1.0.0.1 sv.map.baidu.com1.0.0.1 offnavi.map.baidu.com1.0.0.1 newvector.map.baidu.com1.0.0.1 ulog.imap.baidu.com1.0.0.1 newloc.map.n.shifen.com::2 api.map.baidu.com::2 ps.map.baidu.com::2 sv.map.baidu.com::2 offnavi.map.baidu.com::2 newvector.map.baidu.com::2 ulog.imap.baidu.com::2 newloc.map.n.shifen.com以上写法会让连接超时等待，如果你希望连接立即拒绝断开，那么把"1.0.0.1"改为"0.0.0.0"，把"::2"改为"::"即可 锐速优化准备 使用时，首先需要在锐速官网注册账户，然后确定自己的内核是否在锐速的支持列表里，如果不在，请先更换内核 更换内核在进入你创建的Droplet→Setting→Kerenl,进行更换,记得重启 现在锐速已经不再提供免费版本.不过目前有人破解了,我还没试过 快速安装12345wget http://my.serverspeeder.com/d/ls/serverSpeederInstaller.tar.gztar xzvf serverSpeederInstaller.tar.gzbash serverSpeederInstaller.sh 输入在官网注册的账号密码进行安装，默认设置直接回车即可，然后输入y开机自动启动锐速，y立刻启动锐速。再进行优化设置 1vi /serverspeeder/etc/config 1rsc="1"，RSC网卡驱动模式 advinacc="1" 流量方向加速 maxmode="1" 最大传输模式 退出保存 重新启动锐速的服务 12/serverspeeder/bin/serverSpeeder.sh stop/serverspeeder/bin/serverSpeeder.sh start 客户端Windows Github下载 按照之前在配置文件里面填写的填入你的IP,密码等等 启动系统代理 先启动全局模式更新PAC,在切换到PAC模式 Android google play搜过 影梭 Github下载 配置同windows版 参考 中国电信国际出口是否存在网速问题 ShadowsocksR 服务端安装教程 digitalocean配置ipv6 ServerSpeeder 支持当前主流 Linux 系统的官方发行版本 如何以最暴力的方式防止百度定位泄露真实位置]]></content>
+      <categories>
+        <category>科学上网</category>
+      </categories>
+      <tags>
+        <tag>DigitalOcean</tag>
+        <tag>Google</tag>
+        <tag>IPv6</tag>
+        <tag>ShadowSocks</tag>
+        <tag>VPS</tag>
+        <tag>锐速</tag>
       </tags>
   </entry>
   <entry>
@@ -67,22 +83,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Shadowsocks的搭建]]></title>
-    <url>%2F2015%2F04%2F19%2Fshadowsocks%2F</url>
-    <content type="text"><![CDATA[VPSDigitalOcean Github的学生礼包赠送$100的赞助,可供使用20个月,现在是否还支持国内大学邮箱不确定，若干兑换码无法使用，在Support中Open a Support Ticket联系DO让他们帮助你。 DO首次充值 $5(最低)还会赠送$10。 电信平常速度仅300K/s左右(旧金山,新加坡机房),搭配上锐速,100M电信情况下最高达到过9M/s,Youtube1080P无压力,Twitch在换了SSR后已经无法流畅观看，原因未知。 使用几周后就会出现大规模的抽风,经测试是四川电信宽带的问题 Bandwagon 大名鼎鼎的搬瓦工,支持支付宝,以前便宜的包年$3.99/,$4.99已经没货了,最便宜的已达到$20一年 四川电信网络下表现仅有100~200K/s,学校移动宽带表现不错可达1M/s(满速). 支持一键搭建shadowsocks,很方便 电信 电信国际出口流量大规模丢包问题在知乎上找到了相关解答,解决方案似乎只有换网络商或者走CN2路线中转。 Shadowsocks的搭建DigitalOcean为例部署 Droplet创建 在官网右上角点击CreateDroplet,选择最低的$5/mo,仅用于翻墙已经足够了 服务器测速后进行选择 Linux系统在锐速支持列表选择一持,如果没有,在创建好Droplte也可以在之后更换内核 在邮箱查收IP地址,用户名,密码 Putty 后续操作都要通过Putty连接VPS完成 下载安装Putty后打开,输入邮件里的IP,连接方式SSH,端口22 输入用户,密码(输入密码时并不会显示任何字符包括*,输完回车即可),密码需要连续输入2次,复制后右击即可粘贴成功,之后在输入两次新的密码 基本库安装 由于Shadowsocks原作者clowwindy被请喝茶,这里使用breakwa11的shadowsocksR,(目测breakwa11也暂时不维护了) 以下命令均以root用户执行(复制,右击复制回车即可) 0centos： 1yum install m2crypto git libsodium ubuntu/debian： 1apt-get install m2crypto git 获取源代码1git clone -b manyuser https://github.com/breakwa11/shadowsocks.git 执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。 根目录即 ./shadowsocks 子目录即 ./shadowsocks/shadowsocks 服务端配置进入子目录：1cd shadowsocks/shadowsocks Vim编辑器 Vim编辑器没接触过的人肯定不会用 这里简单以编写配置文件来说明下搭建shadowsocks时用到的命令 建立配置文件 ,会看到简单的json文件内容 1vi /etc/shadowsocks.json 输入i 回车,进入插入模式 写入以下内容,完成后输入 :wq 即可保存退出 12345678910111213&#123; "server":"0.0.0.0", "server_ipv6":"::", "server_port":8388, "local_address":"127.0.0.1", "local_port":1080, "password":"mypassword", "timeout":300, "method":"aes-256-cfb", "obfs":"http_simple", "fast_open":false, "workers":1&#125; 一般情况下，只需要修改以下五项即可： 12345"server_port":8388, //端口"password":"password", //密码"protocol":"origin", //协议插件"obfs":"http_simple", //混淆插件"method":"aes-256-cfb", //加密方式 ###运行服务运行子目录内的server.py： 1python server.py -c /etc/shadowsocks.json 如果要在后台运行： 1python server.py -c /etc/shadowsocks.json -d start 如果要停止/重启： 1python server.py -c /etc/shadowsocks.json -d restart 查看日志： 1tail -f /var/log/shadowsocks.log 更新源代码如果代码有更新可用本命令更新代码进入shadowsocks目录 1cd shadowsocks 执行 1git pull 成功后重启ss服务 IPv6解决google学术被墙,google搜索验证码 DigtalOcean的部分IP会被Google学术屏蔽,修改hosts强制使用IPv6访问 最近Google搜索也经常验证码,还是得通过改hosts解决 IPv6解决验证码不起作用,几天后还是出现了验证码,在Google+上看到别人讨论,似乎google封了DO部分服务器,唉,换IP吧 创建vps时勾选IPv61vi /etc/hosts 文本末端加入 1234562607:f8b0:4005:801::200e google.com2607:f8b0:4005:801::200e www.google.com2607:f8b0:4007:805::100fscholar.google.cn2607:f8b0:4007:805::100fscholar.google.com2607:f8b0:4007:805::100fscholar.google.com.hk2607:f8b0:4007:805::100fscholar.l.google.com 更改时区SSR的部分插件需要本地时间和VPS时间相差不超过X分钟需要更改VPS的时区 12rm -rf /etc/localtimeln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 阻止百毒IP定位逛V2EX时候发现了这么一个问题,查了下SS的IP果然被定位了,虽然是我朋友家- - SSR作者提供了这么一个解决方案 在代理服务器及本地的HOST都添加如下 123456789101112131415161.0.0.1 api.map.baidu.com1.0.0.1 ps.map.baidu.com1.0.0.1 sv.map.baidu.com1.0.0.1 offnavi.map.baidu.com1.0.0.1 newvector.map.baidu.com1.0.0.1 ulog.imap.baidu.com1.0.0.1 newloc.map.n.shifen.com::2 api.map.baidu.com::2 ps.map.baidu.com::2 sv.map.baidu.com::2 offnavi.map.baidu.com::2 newvector.map.baidu.com::2 ulog.imap.baidu.com::2 newloc.map.n.shifen.com以上写法会让连接超时等待，如果你希望连接立即拒绝断开，那么把"1.0.0.1"改为"0.0.0.0"，把"::2"改为"::"即可 锐速优化准备 使用时，首先需要在锐速官网注册账户，然后确定自己的内核是否在锐速的支持列表里，如果不在，请先更换内核 更换内核在进入你创建的Droplet→Setting→Kerenl,进行更换,记得重启 现在锐速已经不再提供免费版本.不过目前有人破解了,我还没试过 快速安装12345wget http://my.serverspeeder.com/d/ls/serverSpeederInstaller.tar.gztar xzvf serverSpeederInstaller.tar.gzbash serverSpeederInstaller.sh 输入在官网注册的账号密码进行安装，默认设置直接回车即可，然后输入y开机自动启动锐速，y立刻启动锐速。再进行优化设置 1vi /serverspeeder/etc/config 1rsc="1"，RSC网卡驱动模式 advinacc="1" 流量方向加速 maxmode="1" 最大传输模式 退出保存 重新启动锐速的服务 12/serverspeeder/bin/serverSpeeder.sh stop/serverspeeder/bin/serverSpeeder.sh start 客户端Windows Github下载 按照之前在配置文件里面填写的填入你的IP,密码等等 启动系统代理 先启动全局模式更新PAC,在切换到PAC模式 Android google play搜过 影梭 Github下载 配置同windows版 参考 中国电信国际出口是否存在网速问题 ShadowsocksR 服务端安装教程 digitalocean配置ipv6 ServerSpeeder 支持当前主流 Linux 系统的官方发行版本 如何以最暴力的方式防止百度定位泄露真实位置]]></content>
-      <categories>
-        <category>科学上网</category>
-      </categories>
-      <tags>
-        <tag>DigitalOcean</tag>
-        <tag>Google</tag>
-        <tag>IPv6</tag>
-        <tag>ShadowSocks</tag>
-        <tag>VPS</tag>
-        <tag>锐速</tag>
       </tags>
   </entry>
 </search>
