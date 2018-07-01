@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zengwy.com/"/>
-  <updated>2018-06-30T15:38:30.366Z</updated>
+  <updated>2018-07-01T13:53:47.476Z</updated>
   <id>http://www.zengwy.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adobe系列打卡--第三天--Premiere系列--用premiere制作单一颜色视频剪辑</title>
+    <link href="http://www.zengwy.com/pr3.html"/>
+    <id>http://www.zengwy.com/pr3.html</id>
+    <published>2018-07-01T13:18:13.000Z</published>
+    <updated>2018-07-01T13:53:47.476Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天使用premiere中lumetri颜色选项卡，HSL辅助插件实现显示某一物体颜色，其余改为灰色的效果。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Adobe系列" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/"/>
+    
+      <category term="Premiere教程" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/Premiere%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Adobe" scheme="http://www.zengwy.com/tags/Adobe/"/>
+    
+      <category term="Premiere" scheme="http://www.zengwy.com/tags/Premiere/"/>
+    
+      <category term="教程" scheme="http://www.zengwy.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Adobe系列打卡--第二天--Premiere系列--使用绿幕实现手机扫X光</title>
