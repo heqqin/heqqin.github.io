@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zengwy.com/"/>
-  <updated>2018-07-02T03:07:05.542Z</updated>
+  <updated>2018-07-03T09:11:53.602Z</updated>
   <id>http://www.zengwy.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adobe系列打卡--第五天--Photoshop系列--用PS给面部涂上油彩为足球加油！</title>
+    <link href="http://www.zengwy.com/ps5.html"/>
+    <id>http://www.zengwy.com/ps5.html</id>
+    <published>2018-07-03T06:24:32.000Z</published>
+    <updated>2018-07-03T09:11:53.602Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;emm~~最近好多小伙伴因为吃低保，嚷着排着队上楼顶的。毕竟四年一次的世界杯，作为一个资深伪球迷，还是打算趁一波热度。&lt;/p&gt;
+&lt;p&gt;今天的教程，用PS给自己脸上加上油彩，给自己喜欢的球队加油助威。&lt;/p&gt;
+&lt;p&gt;so let’s get started！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Adobe系列" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/"/>
+    
+      <category term="Photoshop教程" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/Photoshop%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Adobe" scheme="http://www.zengwy.com/tags/Adobe/"/>
+    
+      <category term="教程" scheme="http://www.zengwy.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Photoshop" scheme="http://www.zengwy.com/tags/Photoshop/"/>
+    
+  </entry>
   
   <entry>
     <title>Adobe系列打卡--第四天--Photoshop系列--用PS做一张又美又标准的证件照</title>
@@ -235,9 +263,9 @@
       <category term="Hexo" scheme="http://www.zengwy.com/categories/Hexo/"/>
     
     
-      <category term="GitHub" scheme="http://www.zengwy.com/tags/GitHub/"/>
-    
       <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
+    
+      <category term="GitHub" scheme="http://www.zengwy.com/tags/GitHub/"/>
     
   </entry>
   
