@@ -1,186 +1,387 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第七天--Photoshop系列--使用PS制作文字海报]]></title>
-    <url>%2Fps7.html</url>
-    <content type="text"><![CDATA[昨天做那个AE，把我弄伤了，主要还是不是很熟悉2018 CC版本。所以这几天休息一下，用用PS搞点事情。（嗨森！） 素材图片 最终效果图 操作步骤前期准备工作 点开PS，把素材图导入到PS中，使用Ctrl+J复制图层。（养成好习惯做好备份） 点击调整图层的阈值按钮，适当调整阈值色阶，步骤及效果图如下： 用Ctrl+Alt+Shift+E，给当前显示效果创建一个新的图层；在新的图层上，把四个角的黑边用画笔或者橡皮擦工具去掉。 点击菜单栏→选择→色彩范围，选择阴影。（黑透白不透的原理） 按Ctrl+J复制一个新图层（隐藏其他图层后，效果如下图），将图层不透明度改为30%。 新建一个图层，将前景色改为白色后，使用Alt+Delete填充前景色。将该图层放于人物图层下方。 新建一个图层，按住Ctrl键单击人物所在图层（这一步是选中该图层上所有可见部分），选中新建的空白图层，点击调整图层的蒙版按钮。 神奇！居然还可以这样排文字做好了准备工作后，就马上要开始排文字了，以前不熟悉PS的时候，排文字是让人最头疼的一件事，文字一个一个的输入太累了，下面介绍一个比较简单的方法。 新建一个新的画布，宽度1280，高度720 分辨率72。 使用文字工具输入想要的文字，调整好大小和间距。 单击菜单栏→编辑→自定义画笔预设，取号名字后点击确定。 回到人物画像所在的画布，选中图层5不是蒙版的部分，使用画笔工具（快捷键B），用”[“键和”]”键调整画笔大小（英文输入法的情况下）。 【神奇第二步】点击菜单栏→窗口→画笔预设（快捷键F5），勾选形状动态，大小抖动调整为100%。这一步的作用是，每使用一次画笔，画笔大小自动随机变大或变小。 将文字刷到图像上。注意细节部分和控制好文字大小，错落有致。 隐藏图层3。点击调整图层的纯色按钮，添加一个适合的颜色，混合模式改为线性光。 点击调整图层的曲线按钮（位置跟步骤7一样），适当调整参数，这个案列中，我想把整体颜色调得偏冷一些，我就选择了蓝色通道，将上限和下线进行了调整。 最后Ctrl+Alt+S，另存为jpg格式。]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>Adobe系列打卡--第八天--After Effects系列--制作动态条形图</title>
+      <link href="/ae8.html"/>
+      <url>/ae8.html</url>
+      <content type="html"><![CDATA[<p>最近B站上这个视频很燃很火：<a href="https://www.bilibili.com/video/av25247913" target="_blank" rel="noopener">《IFs世界GDP动态演化与经济预测》</a></p><p>我看了一下，貌似可以用AE来达到效果，所以我打算把咱大四川的GDP动态图做一下。</p><p>感觉以后做PPT遇到图表类，可以直接套用啊，有没有！</p><a id="more"></a><p>制作视频UP主的应该是用了什么黑科技插件。由于我找不到，所以打算用最笨的办法来实现动画效果，1分多的视频，总共耗时8个小时-，=，权当是练习手法和熟悉AE操作了。</p><p>所以今天就先不放具体教程了，先把做好的视频放上来，明天梳理梳理之后再把教程丢上吧。~</p><h1 id="高清版本连接"><a href="#高清版本连接" class="headerlink" title="高清版本连接"></a>高清版本连接</h1><p><a href="https://www.bilibili.com/video/av26359399/" target="_blank" rel="noopener">B站连接：四川省GDP动态排行</a></p><p><a href="https://v.qq.com/x/page/s0714zm7tyi.html" target="_blank" rel="noopener">腾讯视频连接：四川省GDP动态排行</a></p><iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=s0714zm7tyi&tiny=0&auto=0" allowfullscreen></iframe>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Photoshop教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> After Effects教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Photoshop</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第六天--After Effects系列--用Ae仿制漫威电影开场动画]]></title>
-    <url>%2Fae6.html</url>
-    <content type="text"><![CDATA[今天给大家放一个大招，之前看漫威电影，想必大家对那个一边闪字幕一边出现漫威logo的片头记忆犹新吧，今天我打算用AE来实现它。 emm，开始之前还是说一下，由于这个难度确实有点大，然后素材也不好找，我没有找到漫画的版本，就找了一些真人版的截图，然后对比比较早期还没有3D的logo的版本。 由于说好了每天都要打卡，所以时间还是比较紧的，我就把我的具体步骤和参数放出来。 具体在操作过程中为什么要这么做，用什么来实现这个想法的就不给大家详谈了，大家将就着看吧。 最终效果 具体步骤图片导入及动画效果 打开AE，然后新建一个合成：名称为漫威总合成；宽度1920px，高度1080px；像素长宽比：方形像素；帧速率：30帧/秒；持续时间：12秒。 再新建一个合成：名称为图片效果，持续时间：15秒，其他参数跟步骤1中一样。 然后新建一个文件夹，命名为图片素材，将网上搜集到的图片导入到文件夹中。 选择并拖动一个图片至时间轴，按Ctrl+Alt+Shift+G/H来调整图片以适应整个画面。 选择图片，按快捷键P调出位置属性，在第3帧加入一个位置关键帧；回到第一帧，将图片拖动到屏幕上方并移出屏幕。 在效果和预设中，搜索定向模糊，并拖动到图片上，选择第3帧，在模糊长度上加入一个关键帧；选择第2帧，将模糊长度改为400。 回到第一帧，选中剩余的图片，并拖动到时间轴上。选中编辑好的图片，按下快捷键U（显示所有帧），框选所有帧，用Ctrl+C复制；选中其他图片，用Ctrl+V复制。 选择所有图片，选择第3帧，按Alt+]裁剪图片持续时间；由下至上选择所有图片，右键选择关键帧辅助→序列图层，单击确认。 选择所有帧，拖动图片的长度，将持续时间增加至7帧。将图片合成拖动至漫威总合成。 制作文字及动画效果 新建一个合成，命名为文字层，参数跟步骤2一样。 使用文字工具，输入文字，调整合适大小、图片位置、颜色和字体。 用矩形工具画一根合适的长条线，颜色跟文字颜色一致，命名为上边线。再复制一根线，命名为下边线。 选择8秒05帧，选中TM所在层，按下T键，将不透明度改为0，加入关键帧；选择9秒05帧，将不透明度改为100。 选择9秒06帧，选中下边线层，按下P键，加入关键帧；选择10秒06帧，适当向下调整位置。 选中“布莱恩怒风”所在层，选择矩形工具框选文字加入蒙版，并在蒙版层加入关键帧；选择9分06帧，适当向上拖动蒙版位置。 制作黑色渐变效果、黑色边框和红色蒙版 选择漫威总合成，选中文字层，在起始，结尾和中间各加入位置和缩放的关键帧。 按Ctrl+Y分别加入2层黑色纯色图层、1层红色纯色图层。 将2层黑色图层放至顶部，复制一层文字层将其隐藏，红色图层拖动至该隐藏层下方，混合模式选择Alpha反转遮罩。选择1秒15帧，按下T键，将不透明度改为70%，并加入关键帧；选择2秒00帧，不透明度改为0%；选择6秒09帧，不透明度0%；6秒19帧，不透明度70%；8秒05帧，不透明度70%；8秒24帧，不透明度100%。 选中第一层黑色图层，选择0秒0帧位置，按下T键，调整不透明度100%，加入关键帧；选择2秒00帧，不透明度0%；10秒16，不透明度0%；11秒29帧，不透明度100%。 选择第二层黑色图层，双击矩形工具以加入蒙版，双击蒙版按住Ctrl键调整大小，选择混合模式为反转。 选中文字层（可见），选择6秒27帧，使用矩形工具建立一个平行四边形蒙版（如下图），分别在蒙版路径、蒙版羽化（数值0）、蒙版扩展（数值0）上加入关键帧；选择7秒16帧，将蒙版拖到文字右方（AE会自动加上关键帧）；选择8秒05帧，将蒙版拖动到文字中间，蒙版羽化200，蒙版扩展525。 导入用AU剪辑好的漫威片头的声音。 导出渲染成mp4文件。（建议用AME渲染）]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> After Effects </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第七天--Photoshop系列--使用PS制作文字海报</title>
+      <link href="/ps7.html"/>
+      <url>/ps7.html</url>
+      <content type="html"><![CDATA[<p>昨天做那个AE，把我弄伤了，主要还是不是很熟悉2018 CC版本。加上这几天去重庆去面基，所以这几天休息一下，用用PS搞点事情。（嗨森！）</p><a id="more"></a><h2 id="素材图片"><a href="#素材图片" class="headerlink" title="素材图片"></a>素材图片</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/pic.jpg" width="75%" height="75%" alt="素材"></p><h2 id="最终效果图"><a href="#最终效果图" class="headerlink" title="最终效果图"></a>最终效果图</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/fin.jpg" width="75%" height="75%" alt="效果图"></p><h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><h2 id="前期准备工作"><a href="#前期准备工作" class="headerlink" title="前期准备工作"></a>前期准备工作</h2><ol><li><p>点开PS，把素材图导入到PS中，使用Ctrl+J复制图层。（养成好习惯做好备份）</p></li><li><p>点击调整图层的阈值按钮，适当调整阈值色阶，步骤及效果图如下：</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/51.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/52.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/53.jpg" width="50%" height="50%" alt="素材"></p><ol start="3"><li>用Ctrl+Alt+Shift+E，给当前显示效果创建一个新的图层；在新的图层上，把四个角的黑边用画笔或者橡皮擦工具去掉。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/54.jpg" width="50%" height="50%" alt="素材"></p><ol start="4"><li>点击菜单栏→选择→色彩范围，选择阴影。（黑透白不透的原理）</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/55.jpg" width="30%" height="30%" alt="素材"></p><ol start="5"><li>按Ctrl+J复制一个新图层（隐藏其他图层后，效果如下图），将图层不透明度改为30%。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/56.jpg" width="50%" height="50%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/57.jpg" width="30%" height="30%" alt="素材"></p><ol start="6"><li>新建一个图层，将前景色改为白色后，使用Alt+Delete填充前景色。将该图层放于人物图层下方。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/58.jpg" width="30%" height="30%" alt="素材"></p><ol start="7"><li>新建一个图层，按住Ctrl键单击人物所在图层（这一步是选中该图层上所有可见部分），选中新建的空白图层，点击调整图层的蒙版按钮。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/512.jpg" width="30%" height="30%" alt="素材"></p><h2 id="神奇！居然还可以这样排文字"><a href="#神奇！居然还可以这样排文字" class="headerlink" title="神奇！居然还可以这样排文字"></a>神奇！居然还可以这样排文字</h2><p>做好了准备工作后，就马上要开始排文字了，以前不熟悉PS的时候，排文字是让人最头疼的一件事，文字一个一个的输入太累了，下面介绍一个比较简单的方法。</p><ol><li>新建一个新的画布，宽度1280，高度720 分辨率72。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/59.jpg" width="30%" height="30%" alt="素材"></p><ol start="2"><li>使用文字工具输入想要的文字，调整好大小和间距。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/510.jpg" width="30%" height="30%" alt="素材"></p><ol start="3"><li>单击菜单栏→编辑→自定义画笔预设，取号名字后点击确定。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/511.jpg" width="30%" height="30%" alt="素材"></p><ol start="4"><li>回到人物画像所在的画布，选中图层5不是蒙版的部分，使用画笔工具（快捷键B），用”[“键和”]”键调整画笔大小（英文输入法的情况下）。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/513.jpg" width="30%" height="30%" alt="素材"></p><ol start="5"><li>【神奇第二步】点击菜单栏→窗口→画笔预设（快捷键F5），勾选形状动态，大小抖动调整为100%。这一步的作用是，每使用一次画笔，画笔大小自动随机变大或变小。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/514.jpg" width="30%" height="30%" alt="素材"></p><ol start="6"><li>将文字刷到图像上。注意细节部分和控制好文字大小，错落有致。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/515.jpg" width="30%" height="30%" alt="素材"></p><ol start="7"><li>隐藏图层3。点击调整图层的纯色按钮，添加一个适合的颜色，混合模式改为线性光。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/516.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/517.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/518.jpg" width="50%" height="50%" alt="素材"></p><ol start="8"><li>点击调整图层的曲线按钮（位置跟步骤7一样），适当调整参数，这个案列中，我想把整体颜色调得偏冷一些，我就选择了蓝色通道，将上限和下线进行了调整。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/519.jpg" width="30%" height="30%" alt="素材"></p><ol start="9"><li>最后Ctrl+Alt+S，另存为jpg格式。</li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>After Effects教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Photoshop教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>After Effects</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第五天--Photoshop系列--用PS给面部涂上油彩为足球加油！]]></title>
-    <url>%2Fps5.html</url>
-    <content type="text"><![CDATA[emm~~最近好多小伙伴因为吃低保，嚷着排着队上楼顶的。毕竟四年一次的世界杯，作为一个资深伪球迷，还是打算趁一波热度。 今天的教程，用PS给自己脸上加上油彩，给自己喜欢的球队加油助威。 so let’s get started！ 素材图 最终效果 咳咳，虽然吧，中国除了足球队都去世界杯了，但是也挡不了我深深的热情。 其实吧，我是怕被打，我做的球队跟你喜欢的没有关系，不要打我哦~~！（手动滑稽） 人物抠像与处理人物抠像在昨天的教程中也介绍了一种，今天再介绍另外一种方法。 首先打开PS，导入照片。 使用Ctrl+J复制图层作备份。 点击工具栏中的快速选择工具（快捷键W）。 调整笔刷大小，[键缩小、]键放大，按住Alt键减少选区。 点击调整边缘（PS 2018 叫选择并遮住），调整只能半径和平滑度，使用笔刷将头发等细节部分刷一下，勾选净化颜色，输出“新建带有图层蒙版的图层”。 在图层中新建一个组，组内添加一个黑白校色命令，适当调整参数，取消掉人物脸上的颜色；新建色阶命令，调整人物亮度和黑白对比。 在新建的这个组上，建立一个蒙版。使用Ctrl+I建立蒙版反向。 使用画笔工具（快捷键B)，前景色选白色，在蒙版中将人物的脸抠出来。注意，眼睛和嘴巴不需要涂抹。 将国旗拖入到图片中，适当调整大小和角度。 给脸部涂抹国旗油彩 按住Alt键拖动国旗图层，复制一个新图层。拖动到组的下方，适当调整国旗大小。 将复制的国旗图层栅格化，使用吸管和画笔工具补充脸上没有颜色的地方。 选择复制的国旗图层类型为正片叠低，不透明度改为95%。 选择滤镜→扭曲→球面化，配合脸部给国旗做一个鼓起来的感觉，更好的贴合面部。 使用涂抹工具，按着脸部皮肤的纹路和表情进行涂抹。 复制国旗拷贝图层，选择图层类型为叠加，不透明度改为20%，并拖动到之前面部国旗的下方。 新建图层，用画笔工具，前景色为白色，在人物额头、鼻梁、脸颊、下巴处适当打一些高光，并将图层类型改为叠加，不透明度改为95%。 隐藏所有背景图层，使用快捷键Ctrl+Alt+Shift+E，创建可视化图层。 选择滤镜→其他→高反差保留，将半径调整至0.9，图层类型混合模式改为叠加。 在人物和国旗之间建立新的图层，使用钢笔工具，属性选择为形状，将人物圈起来。 另存为jpg格式导出。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第六天--After Effects系列--用Ae仿制漫威电影开场动画</title>
+      <link href="/ae6.html"/>
+      <url>/ae6.html</url>
+      <content type="html"><![CDATA[<p>今天给大家放一个大招，之前看漫威电影，想必大家对那个一边闪字幕一边出现漫威logo的片头记忆犹新吧，今天我打算用AE来实现它。</p><a id="more"></a><p>emm，开始之前还是说一下，由于这个难度确实有点大，然后素材也不好找，我没有找到漫画的版本，就找了一些真人版的截图，然后对比比较早期还没有3D的logo的版本。</p><p>由于说好了每天都要打卡，所以时间还是比较紧的，我就把我的具体步骤和参数放出来。</p><p>具体在操作过程中为什么要这么做，用什么来实现这个想法的就不给大家详谈了，大家将就着看吧。</p><h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h1><iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=f0710uab9pq&tiny=0&auto=0" allowfullscreen></iframe><h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="图片导入及动画效果"><a href="#图片导入及动画效果" class="headerlink" title="图片导入及动画效果"></a>图片导入及动画效果</h2><ol><li>打开AE，然后新建一个合成：名称为漫威总合成；宽度1920px，高度1080px；像素长宽比：方形像素；帧速率：30帧/秒；持续时间：12秒。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1.jpg" width="50%" height="50%" alt="素材"></p><ol start="2"><li><p>再新建一个合成：名称为图片效果，持续时间：15秒，其他参数跟步骤1中一样。</p></li><li><p>然后新建一个文件夹，命名为图片素材，将网上搜集到的图片导入到文件夹中。</p></li><li><p>选择并拖动一个图片至时间轴，按Ctrl+Alt+Shift+G/H来调整图片以适应整个画面。</p></li><li><p>选择图片，按快捷键P调出位置属性，在第3帧加入一个位置关键帧；回到第一帧，将图片拖动到屏幕上方并移出屏幕。</p></li><li><p>在效果和预设中，搜索定向模糊，并拖动到图片上，选择第3帧，在模糊长度上加入一个关键帧；选择第2帧，将模糊长度改为400。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/2.jpg" width="30%" height="30%" alt="素材"></p><ol start="7"><li><p>回到第一帧，选中剩余的图片，并拖动到时间轴上。选中编辑好的图片，按下快捷键U（显示所有帧），框选所有帧，用Ctrl+C复制；选中其他图片，用Ctrl+V复制。</p></li><li><p>选择所有图片，选择第3帧，按Alt+]裁剪图片持续时间；由下至上选择所有图片，右键选择关键帧辅助→序列图层，单击确认。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/3.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/4.jpg" width="30%" height="30%" alt="素材"></p><ol start="9"><li>选择所有帧，拖动图片的长度，将持续时间增加至7帧。将图片合成拖动至漫威总合成。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/5.jpg" width="30%" height="30%" alt="素材"></p><h2 id="制作文字及动画效果"><a href="#制作文字及动画效果" class="headerlink" title="制作文字及动画效果"></a>制作文字及动画效果</h2><ol start="10"><li><p>新建一个合成，命名为文字层，参数跟步骤2一样。</p></li><li><p>使用文字工具，输入文字，调整合适大小、图片位置、颜色和字体。</p></li><li><p>用矩形工具画一根合适的长条线，颜色跟文字颜色一致，命名为上边线。再复制一根线，命名为下边线。</p></li><li><p>选择8秒05帧，选中TM所在层，按下T键，将不透明度改为0，加入关键帧；选择9秒05帧，将不透明度改为100。</p></li><li><p>选择9秒06帧，选中下边线层，按下P键，加入关键帧；选择10秒06帧，适当向下调整位置。</p></li><li><p>选中“布莱恩怒风”所在层，选择矩形工具框选文字加入蒙版，并在蒙版层加入关键帧；选择9分06帧，适当向上拖动蒙版位置。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/6.jpg" width="30%" height="30%" alt="素材"></p><h2 id="制作黑色渐变效果、黑色边框和红色蒙版"><a href="#制作黑色渐变效果、黑色边框和红色蒙版" class="headerlink" title="制作黑色渐变效果、黑色边框和红色蒙版"></a>制作黑色渐变效果、黑色边框和红色蒙版</h2><ol start="16"><li>选择漫威总合成，选中文字层，在起始，结尾和中间各加入位置和缩放的关键帧。</li></ol><ol start="17"><li>按Ctrl+Y分别加入2层黑色纯色图层、1层红色纯色图层。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/7.jpg" width="30%" height="30%" alt="素材"></p><ol start="18"><li><p>将2层黑色图层放至顶部，复制一层文字层将其隐藏，红色图层拖动至该隐藏层下方，混合模式选择Alpha反转遮罩。<br>选择1秒15帧，按下T键，将不透明度改为70%，并加入关键帧；选择2秒00帧，不透明度改为0%；<br>选择6秒09帧，不透明度0%；6秒19帧，不透明度70%；8秒05帧，不透明度70%；8秒24帧，不透明度100%。</p></li><li><p>选中第一层黑色图层，选择0秒0帧位置，按下T键，调整不透明度100%，加入关键帧；选择2秒00帧，不透明度0%；10秒16，不透明度0%；11秒29帧，不透明度100%。</p></li><li><p>选择第二层黑色图层，双击矩形工具以加入蒙版，双击蒙版按住Ctrl键调整大小，选择混合模式为反转。</p></li><li><p>选中文字层（可见），选择6秒27帧，使用矩形工具建立一个平行四边形蒙版（如下图），分别在蒙版路径、蒙版羽化（数值0）、蒙版扩展（数值0）上加入关键帧；<br>选择7秒16帧，将蒙版拖到文字右方（AE会自动加上关键帧）；选择8秒05帧，将蒙版拖动到文字中间，蒙版羽化200，蒙版扩展525。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/8.jpg" width="30%" height="30%" alt="素材"></p><ol start="22"><li><p>导入用AU剪辑好的漫威片头的声音。</p></li><li><p>导出渲染成mp4文件。（建议用AME渲染）</p></li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Photoshop教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> After Effects教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Photoshop</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第四天--Photoshop系列--用PS做一张又美又标准的证件照]]></title>
-    <url>%2Fps4.html</url>
-    <content type="text"><![CDATA[今天使用Photoshop做一张又美又标准的证件照。 按照惯例，先上素材图和最后的效果图。 素材图 最终效果 照证件照时的注意事项 纯色背景墙。（方便抠图） 摘掉镜头中能照到的所有饰品。 露出你精致的五官。 具体步骤 首先打开PS，导入一张自己的普通照片。 使用Ctrl+J复制图层作备份。 单击工具栏中的快速蒙版（快捷键Q），进入快速蒙版工具。 选择画笔工具，调整画笔大小（快捷键：[键缩小画笔，]键放大画笔），模式：正常，调整流量100%，不透明度100%。 用画笔在蒙版上画出需要覆盖的地方。 退出快速蒙版（快捷键Q）。 使用反选命令（快捷键Ctrl+Shift+I）。 点击工具栏中的快速选择工具，点击选择并遮住（如图），PS有的版本叫“调整边缘”。 为了方便抠图，在弹出的窗口中，调整视图为“黑底”。 勾选智能半径并调整数值，适当增加平滑值；调整画笔大小，将边缘刷一下。（此处画笔PS 2018中选择调整边缘画笔工具，别的版本不用选择） 在输出选项中，选择新建带有图层蒙版的图层。点击确定。 新建一个背景层（证件照红底ff0000，蓝底00bff3），使用Alt+Delete填充前景色。（也可用渐变工具实现底色渐变） 选择人物所在图层（不要选到蒙版），选择加深工具，范围选择中间调，根据照片细微调节曝光度（50~70左右），勾选保护色调。在人物边缘刷一刷。 选择之前未处理的人物图层，使用钢笔工具（快速选择工具），把之前用快速蒙版丢失掉的细节勾选出来（主要是衣服部分）。 继续使用调整边缘（选择并遮住），适当增加半径和平滑，让选区不那么生硬。输出的时候仍然选择新建带有图层蒙版的图层。 选择第一个带有蒙版的图层，选择蒙版，使用画笔工具（前景色黑色），将衣服部分擦除。 使用污点修复画笔工具，修复脸上的痘痘和衣服上的污渍。 使用色阶调整工具，调整皮肤颜色。（会化妆的菇凉这里就不需要啦，自己画个妆吧） 调整亮度对比度，使皮肤重见光彩。 先用套索工具勾勒出嘴唇大致形状，使用纯色叠加来给嘴唇上妆，在蒙版中使用画笔工具把嘴唇周围细节部分刷一下。 附：18款不同色度的红唇常用RGB参数 Cushnie et Ochs 使用的口红RGB 代码是R: 161 G: 42 B: 32，明艳的同时有着沉稳的气质，适合出席正式晚宴时使用。 Ryan Lo 使用的口红RGB 代码是R:223 G:109 B:111，柔美而典雅的唇色搭配上整体妆容，颇具天野喜孝笔下人物的神韵。 Undercover使用的口红RGB 代码是R:135 G:15 B:25，这个颜色庄重而大气，需要一定年龄才能驾驭得了。 Agnona使用的口红RGB 代码是R:227 G:33 B:59，亮度略高于上面三个颜色，从一定程度上可以调整面部的明暗度。 Laura Biagiotti嘴唇中心的颜色是明媚的R: 206 G: 30 B: 29，边缘则是柔和的R: 226 G: 115 B: 124，有种唐代唇妆与咬唇妆结合的感觉。 I’m Isola Marras 嘴唇中心的颜色是鲜艳的R: 165 G: 55 B: 64，嘴角则是淡粉色的R: 185 G: 130 B: 123，有些魏晋时代唇妆的影子。 Guy Laroche使用的口红RGB代码是R: 246 G: 80 B: 83，柔美且自然的颜色无论是日常通勤还是出门都不会显得突兀。 Fendi 使用的口红RGB代码是R: 252 G: 94 B: 59，偏橘色的口红，适合肤色较深又喜爱鲜艳色彩的姑娘。 Creatures of the Wind 的唇色主体为深红色的R: 108 G: 26 B: 22，下唇的中心以正红色的 R: 220 G: 52 B: 46营造出油画般的质感。 Bottega Veneta使用了颜色极深的唇膏，R: 93 G: 188 B: 210是所有颜色中唯一一个R低于一百的颜色，和甄嬛被封为熹妃时用的唇膏颜色相似，仅适合于薄而小的嘴唇。 Antonio Marras的主色调是R:160 G: 40 B: 48，而嘴唇的中心以近乎于黑色的R: 34 G: 12 B: 14营造出阴郁的哥特感，黑网面纱则更增强了这种氛围。 Prada使用的R: 202 G: 37 B: 35 就是红唇最具代表性的大红色——鲜艳、饱满、充满诱惑力。 Max Mara 用的口红RGB代码是R: 252 G: 25 B: 25，和Prada接近但是更偏向暖色调，适合皮肤苍白的人。 Mary Katrantzou使用的口红RGB代码是R: 117 G: 18 B: 24，浓郁的深红色给人以雍容华贵的感觉。 Mario Dice的口红是和衣服同色的R: 156 G: 17 B: 35，有足够的红度但并不至于太热烈，适合与朋友小聚的场合。 Vivienne Westwood也是大红色，R: 224 G: 49 B: 39和另外两个大红色区别不太大。 Topshop Unique使用的口红RGB代码是R: 226 G: 69 B: 120，蓝色调的加入使其偏向于紫粉色，正适合这样的快时尚年轻品牌。 Sibling使用的口红RGB代码是R: 133 G: 12 B: 28，闪亮的釉质层使其显得格外可人。 选中所有图层，Ctrl+E合并所有图层。 新建一个文件，一寸（25mm×35mm）、两寸（35mm×49mm）、护照证件照（33mm×48mm）、毕业生证件照（33mm×48mm）、身份证（驾驶证）证件照（22mm×32mm）。分辨率填300或大于300. 将人物所在图层拖拽到新建的画布中，调整大小和角度（快捷键Ctrlt+T）。 将图片保存为jpg格式。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> After Effects </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第五天--Photoshop系列--用PS给面部涂上油彩为足球加油！</title>
+      <link href="/ps5.html"/>
+      <url>/ps5.html</url>
+      <content type="html"><![CDATA[<p>emm~~最近好多小伙伴因为吃低保，嚷着排着队上楼顶的。毕竟四年一次的世界杯，作为一个资深伪球迷，还是打算趁一波热度。</p><p>今天的教程，用PS给自己脸上加上油彩，给自己喜欢的球队加油助威。</p><p>so let’s get started！</p><a id="more"></a><h1 id="素材图"><a href="#素材图" class="headerlink" title="素材图"></a>素材图</h1><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/sucai.jpg" width="75%" height="75%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/%E5%9B%BD%E6%97%97.jpg" width="75%" height="75%" alt="素材"></p><h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h1><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/final.jpg" width="75%" height="75%" alt="素材"></p><p>咳咳，虽然吧，中国除了足球队都去世界杯了，但是也挡不了我深深的热情。</p><p>其实吧，我是怕被打，我做的球队跟你喜欢的没有关系，不要打我哦~~！（手动滑稽）</p><h1 id="人物抠像与处理"><a href="#人物抠像与处理" class="headerlink" title="人物抠像与处理"></a>人物抠像与处理</h1><p>人物抠像在昨天的教程中也介绍了一种，今天再介绍另外一种方法。</p><ol><li><p>首先打开PS，导入照片。</p></li><li><p>使用Ctrl+J复制图层作备份。</p></li><li><p>点击工具栏中的快速选择工具（快捷键W）。</p></li><li><p>调整笔刷大小，[键缩小、]键放大，按住Alt键减少选区。</p></li><li><p>点击调整边缘（PS 2018 叫选择并遮住），调整只能半径和平滑度，使用笔刷将头发等细节部分刷一下，勾选净化颜色，输出“新建带有图层蒙版的图层”。</p></li><li><p>在图层中新建一个组，组内添加一个黑白校色命令，适当调整参数，取消掉人物脸上的颜色；新建色阶命令，调整人物亮度和黑白对比。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/1.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/2.jpg" width="30%" height="30%" alt="素材"></p><ol start="7"><li><p>在新建的这个组上，建立一个蒙版。使用Ctrl+I建立蒙版反向。</p></li><li><p>使用画笔工具（快捷键B)，前景色选白色，在蒙版中将人物的脸抠出来。注意，眼睛和嘴巴不需要涂抹。</p></li><li><p>将国旗拖入到图片中，适当调整大小和角度。</p></li></ol><h1 id="给脸部涂抹国旗油彩"><a href="#给脸部涂抹国旗油彩" class="headerlink" title="给脸部涂抹国旗油彩"></a>给脸部涂抹国旗油彩</h1><ol><li><p>按住Alt键拖动国旗图层，复制一个新图层。拖动到组的下方，适当调整国旗大小。</p></li><li><p>将复制的国旗图层栅格化，使用吸管和画笔工具补充脸上没有颜色的地方。</p></li><li><p>选择复制的国旗图层类型为正片叠低，不透明度改为95%。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/3.jpg" width="30%" height="30%" alt="素材"></p><ol start="4"><li><p>选择滤镜→扭曲→球面化，配合脸部给国旗做一个鼓起来的感觉，更好的贴合面部。</p></li><li><p>使用涂抹工具，按着脸部皮肤的纹路和表情进行涂抹。</p></li><li><p>复制国旗拷贝图层，选择图层类型为叠加，不透明度改为20%，并拖动到之前面部国旗的下方。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/4.jpg" width="30%" height="30%" alt="素材"></p><ol start="7"><li>新建图层，用画笔工具，前景色为白色，在人物额头、鼻梁、脸颊、下巴处适当打一些高光，并将图层类型改为叠加，不透明度改为95%。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/5.jpg" width="30%" height="30%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/6.jpg" width="30%" height="30%" alt="素材"></p><ol start="8"><li><p>隐藏所有背景图层，使用快捷键Ctrl+Alt+Shift+E，创建可视化图层。</p></li><li><p>选择滤镜→其他→高反差保留，将半径调整至0.9，图层类型混合模式改为叠加。</p></li><li><p>在人物和国旗之间建立新的图层，使用钢笔工具，属性选择为形状，将人物圈起来。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/7.jpg" width="50%" height="50%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps2/8.jpg" width="75%" height="75%" alt="素材"></p><ol start="11"><li>另存为jpg格式导出。</li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Photoshop教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Photoshop教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Photoshop</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第三天--Premiere系列--用premiere制作单一颜色视频剪辑]]></title>
-    <url>%2Fpr3.html</url>
-    <content type="text"><![CDATA[今天使用premiere中lumetri颜色选项卡，HSL辅助插件实现显示某一物体颜色，其余改为灰色的效果。按照惯例，先上最后的效果图。 最终效果 具体步骤HSL辅助，好像是最近Adobe在Premiere中添加的，我用的是Adobe Premiere Pro CC 2018，建议用此版本以上的版本。 打开Premiere，新建一个项目并命名。 新建序列并命名。 使用快捷键Ctrl+I，导入视频、声音素材。 将一个视频剪辑拖入时间轴，并选中这个编辑。 找到窗口菜单下，工作区→颜色选项卡（快捷键Alt+Shift+9），在右侧lumetri颜色选项卡中找到HSL辅助。 选择设置颜色后面的三个吸管，并在视频预览窗口单击想要留下的颜色。 使用另外两个吸管或调整S、L的数值改变选区。 在优化中添加一些降噪和模糊。 将更正选项卡中，饱和度一项改为0。 勾选彩色/灰色后面的选项。 在时间轴中，将改好的视频复制到另外一个轨道（按住Alt键拖动）。 选中下面那一轨的视频，将HSL辅助中，H、S、L三项的值缩小。 使用快捷键Alt+Shift+1，回到编辑窗口，选中上面那一轨的视频，在效果控件选项卡中，找到不透明度选项卡，点击方形蒙版。 调整选区。 选到视频起始位置，单击蒙版路径，插入一个关键帧；使用蒙版路径中的蒙版跟踪工具，或者手动插入关键帧的形式调整蒙版位置。 逐帧逐帧检查效果。 将视频导出成MP4格式。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第四天--Photoshop系列--用PS做一张又美又标准的证件照</title>
+      <link href="/ps4.html"/>
+      <url>/ps4.html</url>
+      <content type="html"><![CDATA[<p>今天使用Photoshop做一张又美又标准的证件照。<br><a id="more"></a></p><p>按照惯例，先上素材图和最后的效果图。</p><h1 id="素材图"><a href="#素材图" class="headerlink" title="素材图"></a>素材图</h1><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/2.jpg" width="75%" height="75%" alt="素材"></p><h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h1><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/1.jpg" width="75%" height="75%" alt="素材"></p><h1 id="照证件照时的注意事项"><a href="#照证件照时的注意事项" class="headerlink" title="照证件照时的注意事项"></a>照证件照时的注意事项</h1><ol><li>纯色背景墙。（方便抠图）</li><li>摘掉镜头中能照到的所有饰品。</li><li>露出你精致的五官。</li></ol><h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><ol><li><p>首先打开PS，导入一张自己的普通照片。</p></li><li><p>使用Ctrl+J复制图层作备份。</p></li><li><p>单击工具栏中的快速蒙版（快捷键Q），进入快速蒙版工具。</p></li><li><p>选择画笔工具，调整画笔大小（快捷键：[键缩小画笔，]键放大画笔），模式：正常，调整流量100%，不透明度100%。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/1.png" width="75%" height="75%" alt="素材"></p><ol start="5"><li>用画笔在蒙版上画出需要覆盖的地方。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/2.png" width="75%" height="75%" alt="素材"></p><ol start="6"><li><p>退出快速蒙版（快捷键Q）。</p></li><li><p>使用反选命令（快捷键Ctrl+Shift+I）。</p></li><li><p>点击工具栏中的快速选择工具，点击选择并遮住（如图），PS有的版本叫“调整边缘”。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/3.png" width="75%" height="75%" alt="素材"></p><p>为了方便抠图，在弹出的窗口中，调整视图为“黑底”。</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/4.png" width="30%" height="30%" alt="素材"></p><ol start="9"><li>勾选智能半径并调整数值，适当增加平滑值；调整画笔大小，将边缘刷一下。（此处画笔PS 2018中选择调整边缘画笔工具，别的版本不用选择）</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/5.png" width="75%" height="75%" alt="素材"></p><ol start="10"><li><p>在输出选项中，选择新建带有图层蒙版的图层。点击确定。</p></li><li><p>新建一个背景层（证件照红底ff0000，蓝底00bff3），使用Alt+Delete填充前景色。（也可用渐变工具实现底色渐变）</p></li><li><p>选择人物所在图层（不要选到蒙版），选择加深工具，范围选择中间调，根据照片细微调节曝光度（50~70左右），勾选保护色调。在人物边缘刷一刷。</p></li><li><p>选择之前未处理的人物图层，使用钢笔工具（快速选择工具），把之前用快速蒙版丢失掉的细节勾选出来（主要是衣服部分）。</p></li><li><p>继续使用调整边缘（选择并遮住），适当增加半径和平滑，让选区不那么生硬。输出的时候仍然选择新建带有图层蒙版的图层。</p></li><li><p>选择第一个带有蒙版的图层，选择蒙版，使用画笔工具（前景色黑色），将衣服部分擦除。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps1/6.png" width="30%" height="30%" alt="素材"></p><ol start="16"><li><p>使用污点修复画笔工具，修复脸上的痘痘和衣服上的污渍。</p></li><li><p>使用色阶调整工具，调整皮肤颜色。（会化妆的菇凉这里就不需要啦，自己画个妆吧）</p></li><li><p>调整亮度对比度，使皮肤重见光彩。</p></li><li><p>先用套索工具勾勒出嘴唇大致形状，使用纯色叠加来给嘴唇上妆，在蒙版中使用画笔工具把嘴唇周围细节部分刷一下。</p></li></ol><blockquote><p>附：18款不同色度的红唇常用RGB参数</p><blockquote><ol><li>Cushnie et Ochs 使用的口红RGB 代码是R: 161 G: 42 B: 32，明艳的同时有着沉稳的气质，适合出席正式晚宴时使用。</li><li>Ryan Lo 使用的口红RGB 代码是R:223 G:109 B:111，柔美而典雅的唇色搭配上整体妆容，颇具天野喜孝笔下人物的神韵。</li><li>Undercover使用的口红RGB 代码是R:135 G:15 B:25，这个颜色庄重而大气，需要一定年龄才能驾驭得了。</li><li>Agnona使用的口红RGB 代码是R:227 G:33 B:59，亮度略高于上面三个颜色，从一定程度上可以调整面部的明暗度。</li><li>Laura Biagiotti嘴唇中心的颜色是明媚的R: 206 G: 30 B: 29，边缘则是柔和的R: 226 G: 115 B: 124，有种唐代唇妆与咬唇妆结合的感觉。</li><li>I’m Isola Marras 嘴唇中心的颜色是鲜艳的R: 165 G: 55 B: 64，嘴角则是淡粉色的R: 185 G: 130 B: 123，有些魏晋时代唇妆的影子。</li><li>Guy Laroche使用的口红RGB代码是R: 246 G: 80 B: 83，柔美且自然的颜色无论是日常通勤还是出门都不会显得突兀。</li><li>Fendi 使用的口红RGB代码是R: 252 G: 94 B: 59，偏橘色的口红，适合肤色较深又喜爱鲜艳色彩的姑娘。</li><li>Creatures of the Wind 的唇色主体为深红色的R: 108 G: 26 B: 22，下唇的中心以正红色的 R: 220 G: 52 B: 46营造出油画般的质感。</li><li>Bottega Veneta使用了颜色极深的唇膏，R: 93 G: 188 B: 210是所有颜色中唯一一个R低于一百的颜色，和甄嬛被封为熹妃时用的唇膏颜色相似，仅适合于薄而小的嘴唇。</li><li>Antonio Marras的主色调是R:160 G: 40 B: 48，而嘴唇的中心以近乎于黑色的R: 34 G: 12 B: 14营造出阴郁的哥特感，黑网面纱则更增强了这种氛围。</li><li>Prada使用的R: 202 G: 37 B: 35 就是红唇最具代表性的大红色——鲜艳、饱满、充满诱惑力。</li><li>Max Mara 用的口红RGB代码是R: 252 G: 25 B: 25，和Prada接近但是更偏向暖色调，适合皮肤苍白的人。</li><li>Mary Katrantzou使用的口红RGB代码是R: 117 G: 18 B: 24，浓郁的深红色给人以雍容华贵的感觉。</li><li>Mario Dice的口红是和衣服同色的R: 156 G: 17 B: 35，有足够的红度但并不至于太热烈，适合与朋友小聚的场合。</li><li>Vivienne Westwood也是大红色，R: 224 G: 49 B: 39和另外两个大红色区别不太大。</li><li>Topshop Unique使用的口红RGB代码是R: 226 G: 69 B: 120，蓝色调的加入使其偏向于紫粉色，正适合这样的快时尚年轻品牌。</li><li>Sibling使用的口红RGB代码是R: 133 G: 12 B: 28，闪亮的釉质层使其显得格外可人。</li></ol></blockquote></blockquote><ol start="20"><li><p>选中所有图层，Ctrl+E合并所有图层。</p></li><li><p>新建一个文件，一寸（25mm×35mm）、两寸（35mm×49mm）、护照证件照（33mm×48mm）、毕业生证件照（33mm×48mm）、身份证（驾驶证）证件照（22mm×32mm）。分辨率填300或大于300.</p></li><li><p>将人物所在图层拖拽到新建的画布中，调整大小和角度（快捷键Ctrlt+T）。</p></li><li><p>将图片保存为jpg格式。</p></li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Premiere教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Photoshop教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Premiere</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第二天--Premiere系列--使用绿幕实现手机扫X光]]></title>
-    <url>%2Fpr2.html</url>
-    <content type="text"><![CDATA[今天主要是练习使用Premiere中的“超级键”功能，实现用手机拍X光。 素材截图 最终效果 操作步骤创建绿幕 打开Photoshop，新建一个宽为1080像素，高为1920像素，分辨率为72的文档； 使用油漆桶工具，选择前景色为#01d800，填充后，保存为jpg文件； 将jpg文件发送至手机。 录制视频 用手机将绿幕文件打开，全屏显示 用另外的手机录制视频，录制后发送至电脑。 视频制作 打开Premiere，新建项目，将录制好的视频导入到Premiere； 拖动视频至时间轴，播放视频，找到视频中较完整的手部的帧，点击导出帧（Ctrl+Shift+E）。 用Photoshop打开导出的图片和手部X光的图片，使用操控变换工具调整两张图片，如下图： 将背景设为白色并保存X光照片。 将制作好的照片导入到Premiere，并放到视频所在轨道下面，并拖动时间轴填充时间。 选择视频轨道，在效果选项卡中，搜索超级键，并拖动到视频轴上。 在视频效果选项卡中，找到超级键，在主要颜色一栏，点击后面的吸管，在视频上选择绿色部分。 注意：此时播放视频时，可能会发现屏幕上有反光部分，主要是录制视频时候环境光线所致。具体解决办法是：在超级键选项卡，输出一栏，将合成改为Alpha通道，在遮罩生成一栏调整各项参数，使得反光部分消失；再将Alpha通道改回合成。 在效果选项卡中，搜索色彩，并拖动到X光图片所在轴上。 在视频效果选项卡中，找到色彩一栏，改为如下图所示：（黑色映射到白色、白色映射到#063A4C） 将视频导出成MP4格式。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第三天--Premiere系列--用premiere制作单一颜色视频剪辑</title>
+      <link href="/pr3.html"/>
+      <url>/pr3.html</url>
+      <content type="html"><![CDATA[<p>今天使用premiere中lumetri颜色选项卡，HSL辅助插件实现显示某一物体颜色，其余改为灰色的效果。<br><a id="more"></a><br>按照惯例，先上最后的效果图。</p><h1 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h1><iframe height="498" width="510" src="//player.bilibili.com/player.html?aid=25963806&cid=44461367&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><p>HSL辅助，好像是最近Adobe在Premiere中添加的，我用的是Adobe Premiere Pro CC 2018，建议用此版本以上的版本。</p><ol><li><p>打开Premiere，新建一个项目并命名。</p></li><li><p>新建序列并命名。</p></li><li><p>使用快捷键Ctrl+I，导入视频、声音素材。</p></li><li><p>将一个视频剪辑拖入时间轴，并选中这个编辑。</p></li><li><p>找到窗口菜单下，工作区→颜色选项卡（快捷键Alt+Shift+9），在右侧lumetri颜色选项卡中找到HSL辅助。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/6.png" width="75%" height="75%" alt="素材"></p><ol start="6"><li><p>选择设置颜色后面的三个吸管，并在视频预览窗口单击想要留下的颜色。</p></li><li><p>使用另外两个吸管或调整S、L的数值改变选区。</p></li><li><p>在优化中添加一些降噪和模糊。</p></li><li><p>将更正选项卡中，饱和度一项改为0。</p></li><li><p>勾选彩色/灰色后面的选项。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/7.png" width="75%" height="75%" alt="素材"></p><ol start="11"><li>在时间轴中，将改好的视频复制到另外一个轨道（按住Alt键拖动）。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/8.png" width="75%" height="75%" alt="素材"></p><ol start="12"><li>选中下面那一轨的视频，将HSL辅助中，H、S、L三项的值缩小。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/9.png" width="75%" height="75%" alt="素材"></p><ol start="13"><li>使用快捷键Alt+Shift+1，回到编辑窗口，选中上面那一轨的视频，在效果控件选项卡中，找到不透明度选项卡，点击方形蒙版。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/10.png" width="75%" height="75%" alt="素材"></p><ol start="14"><li>调整选区。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/11.png" width="75%" height="75%" alt="素材"></p><ol start="15"><li>选到视频起始位置，单击蒙版路径，插入一个关键帧；使用蒙版路径中的蒙版跟踪工具，或者手动插入关键帧的形式调整蒙版位置。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/12.png" width="75%" height="75%" alt="素材">   </p><ol start="16"><li><p>逐帧逐帧检查效果。</p></li><li><p>将视频导出成MP4格式。</p></li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Premiere教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Premiere教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Premiere</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Adobe系列打卡--第一天--Photoshop系列--使用自动混合图层工具实现换脸]]></title>
-    <url>%2Fps1.html</url>
-    <content type="text"><![CDATA[从今天开始每天练习一个平面设计的技巧，主要是Adobe全家桶的一些软件的熟悉，包括Photoshop、After Effects、Premiere、Audition等等。 今天主要是练习使用Photoshop中的“自动混合图层工具”，实现图片中人物的换脸。 素材图片 最终效果图 操作步骤 打开素材图片，使用矩形选框工具选取素材图右边的照片，使用快捷键Ctrl+C复制照片。 在PS中点击菜单栏文件→新建选项卡。具体参数如下图： 在新建好的文件中，使用快捷键Ctrl+V粘贴照片。 回到素材图，使用矩形选框工具选取左边的照片，用同样的方法复制到新建好的文件中。 点击菜单栏编辑→变换→水平翻转。 使用Ctrl+T命令适当调整大小和角度。 使用快速选择工具选取素材左边图脸的部分（按住Alt键可以减少选区）。 使用快捷键Ctrl+J复制图层。 在右下角图层面板中适当调整图层的不透明度，使得两张图片能看见脸部形状。点击编辑→操控变形选项卡，适当调整脸部。 使用套索工具，选择脸部细节部分（包括眉毛、眼睛、鼻子、嘴巴），单击选择→反选（快捷键Ctrl+Shift+I），使用Delete键删除多余部分。 按住Ctrl键单击图层3，使图层3可见部分被选中，单击选择→修改→收缩，输入收缩量5~20像素（注意新选区不能太小）。 将图层1拖动到图层3下面，选择图层3，按下Delete键。 按住Ctrl键依次点击图层1、图层3，单击编辑→自动混合图层，混合方法中选择全景图，勾选“无缝色调和颜色”以及“内容识别填充透明区域”。 单击文件→储存为，保存图片。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Premiere </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第二天--Premiere系列--使用绿幕实现手机扫X光</title>
+      <link href="/pr2.html"/>
+      <url>/pr2.html</url>
+      <content type="html"><![CDATA[<p>今天主要是练习使用Premiere中的“超级键”功能，实现用手机拍X光。</p><a id="more"></a><h2 id="素材截图"><a href="#素材截图" class="headerlink" title="素材截图"></a>素材截图</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/VID_20180630_200253.00_00_00_00.%E9%9D%99%E6%AD%A2004.jpg" width="75%" height="75%" alt="素材"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/%E6%89%8BX%E5%85%89.jpg" width="75%" height="75%" alt="素材"></p><h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><iframe height="498" width="510" src="//player.bilibili.com/player.html?aid=25900342&cid=44299936&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><h2 id="创建绿幕"><a href="#创建绿幕" class="headerlink" title="创建绿幕"></a>创建绿幕</h2><ol><li><p>打开Photoshop，新建一个宽为1080像素，高为1920像素，分辨率为72的文档；</p></li><li><p>使用油漆桶工具，选择前景色为#01d800，填充后，保存为jpg文件；</p></li><li><p>将jpg文件发送至手机。</p></li></ol><h2 id="录制视频"><a href="#录制视频" class="headerlink" title="录制视频"></a>录制视频</h2><ol><li><p>用手机将绿幕文件打开，全屏显示</p></li><li><p>用另外的手机录制视频，录制后发送至电脑。</p></li></ol><h2 id="视频制作"><a href="#视频制作" class="headerlink" title="视频制作"></a>视频制作</h2><ol><li><p>打开Premiere，新建项目，将录制好的视频导入到Premiere；</p></li><li><p>拖动视频至时间轴，播放视频，找到视频中较完整的手部的帧，点击导出帧（Ctrl+Shift+E）。</p></li><li><p>用Photoshop打开导出的图片和手部X光的图片，使用操控变换工具调整两张图片，如下图：</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/2.png" width="75%" height="75%" alt="素材"></p><ol start="4"><li>将背景设为白色并保存X光照片。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/3.png" width="75%" height="75%" alt="素材"></p><ol start="5"><li><p>将制作好的照片导入到Premiere，并放到视频所在轨道下面，并拖动时间轴填充时间。</p></li><li><p>选择视频轨道，在效果选项卡中，搜索超级键，并拖动到视频轴上。</p></li><li><p>在视频效果选项卡中，找到超级键，在主要颜色一栏，点击后面的吸管，在视频上选择绿色部分。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/4.png" width="75%" height="75%" alt="素材"></p><blockquote><p>注意：此时播放视频时，可能会发现屏幕上有反光部分，主要是录制视频时候环境光线所致。具体解决办法是：<br>在超级键选项卡，输出一栏，将合成改为Alpha通道，在遮罩生成一栏调整各项参数，使得反光部分消失；再将Alpha通道改回合成。</p></blockquote><ol start="8"><li><p>在效果选项卡中，搜索色彩，并拖动到X光图片所在轴上。</p></li><li><p>在视频效果选项卡中，找到色彩一栏，改为如下图所示：（黑色映射到白色、白色映射到#063A4C）</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/pr/5.png" width="75%" height="75%" alt="素材"></p><ol start="10"><li>将视频导出成MP4格式。</li></ol>]]></content>
+      
       <categories>
-        <category>Adobe系列</category>
-        <category>Photoshop教程</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Premiere教程 </category>
+          
       </categories>
-      <tags>
-        <tag>Adobe</tag>
-        <tag>教程</tag>
-        <tag>Photoshop</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[个人简历]]></title>
-    <url>%2Fcv.html</url>
-    <content type="text"><![CDATA[基本资料 姓名：何沁河 性别：男 籍贯：四川泸州 出生年月：1988年4月 学历学位 四川大学电气信息学院通信工程工学学士 中国人民解放军沈阳炮兵学院军事学学士 个人简历 1995年9月至2000年6月就读于四川省泸州市泸县实验学校 2000年9月至2003年6月就读于四川省泸州外国语学校 2003年9月至2006年6月就读于四川省泸州高级中学 2006年9月至2010年6月就读于四川大学电气信息学院 2010年9月至2011年6月就读于中国人民解放军沈阳炮兵学院 2011年6月至2013年7月于中国人民解放军77171部队任排长兼党支部组织委员、团支部书记 2013年7月至2015年3月于中国人民解放军77171部队任副政治指导员兼党支部纪检委员、团支部书记 2015年3月至2017年3月于中国人民解放军77171部队司令部任参谋 2017年3月至2018年7月于中国人民解放军31676部队参谋部任参谋 兴趣特长 熟练写作，有较强的语言表达能力 有较强的组织策划能力和协调沟通能力 熟练掌握网络构建及网站设计，2007年通过全国计算机等级考试二级、2009年通过全国计算机等级考试四级（网络工程师） 熟练掌握PS、PR、AU等平面设计软件及音视频处理软件 熟练C++、python等编程语言 有较强的外语水平，2006年通过CET-4考试、2011年通过CET-6考试 取得证书 大学英语六级考试（教育部）（2011年考试通过未领取证书） 全国计算机等级考试四级（网络工程师）（教育部）（2009年考试通过未领取证书） 心理咨询师三级（劳动和社会保障部） 获得荣誉 2006年4月，于泸州高中被评为三好学生 2007年12月，于四川大学荣获单项一等奖学金 2009年6月，于四川大学被评为优秀国防生 2010年6月，于中国人民解放军沈阳炮兵学院获得优秀学员、记嘉奖1次 2012年6月，于中国人民解放军77171部队取得参谋岗位比武第一名 2012年11月，于中国人民解放军77171部队立“三等功”1次，记嘉奖1次 2013年获得“执行四川芦山抗震救灾任务纪念章” 部分证书及荣誉学历证明 心理咨询师资格证（三级） 获得荣誉 三等功奖章 执行重大任务纪念奖章（四川芦山抗震救灾） 在校期间获得荣誉]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Premiere </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Adobe系列打卡--第一天--Photoshop系列--使用自动混合图层工具实现换脸</title>
+      <link href="/ps1.html"/>
+      <url>/ps1.html</url>
+      <content type="html"><![CDATA[<p>从今天开始每天练习一个平面设计的技巧，主要是Adobe全家桶的一些软件的熟悉，包括Photoshop、After Effects、Premiere、Audition等等。</p><p>今天主要是练习使用Photoshop中的“自动混合图层工具”，实现图片中人物的换脸。</p><a id="more"></a><h2 id="素材图片"><a href="#素材图片" class="headerlink" title="素材图片"></a>素材图片</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/1.jpg" width="75%" height="75%" alt="素材"></p><h2 id="最终效果图"><a href="#最终效果图" class="headerlink" title="最终效果图"></a>最终效果图</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/3.jpg" width="30%" height="30%" alt="效果图"></p><h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><ol><li><p>打开素材图片，使用矩形选框工具选取素材图右边的照片，使用快捷键Ctrl+C复制照片。</p></li><li><p>在PS中点击菜单栏文件→新建选项卡。具体参数如下图：</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/1.png" width="50%" height="50%" alt="效果图"></p><ol start="3"><li><p>在新建好的文件中，使用快捷键Ctrl+V粘贴照片。</p></li><li><p>回到素材图，使用矩形选框工具选取左边的照片，用同样的方法复制到新建好的文件中。</p></li><li><p>点击菜单栏编辑→变换→水平翻转。</p></li><li><p>使用Ctrl+T命令适当调整大小和角度。</p></li><li><p>使用快速选择工具选取素材左边图脸的部分（按住Alt键可以减少选区）。</p></li><li><p>使用快捷键Ctrl+J复制图层。</p></li><li><p>在右下角图层面板中适当调整图层的不透明度，使得两张图片能看见脸部形状。点击编辑→操控变形选项卡，适当调整脸部。</p></li><li><p>使用套索工具，选择脸部细节部分（包括眉毛、眼睛、鼻子、嘴巴），单击选择→反选（快捷键Ctrl+Shift+I），使用Delete键删除多余部分。</p></li><li><p>按住Ctrl键单击图层3，使图层3可见部分被选中，单击选择→修改→收缩，输入收缩量5~20像素（注意新选区不能太小）。</p></li><li><p>将图层1拖动到图层3下面，选择图层3，按下Delete键。</p></li><li><p>按住Ctrl键依次点击图层1、图层3，单击编辑→自动混合图层，混合方法中选择全景图，勾选“无缝色调和颜色”以及“内容识别填充透明区域”。</p></li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ps/2.png" width="30%" height="30%" alt="效果图"></p><ol start="14"><li>单击文件→储存为，保存图片。</li></ol>]]></content>
+      
       <categories>
-        <category>简历</category>
+          
+          <category> Adobe系列 </category>
+          
+          <category> Photoshop教程 </category>
+          
       </categories>
-      <tags>
-        <tag>基本资料</tag>
-        <tag>学历学位</tag>
-        <tag>取得证书</tag>
-        <tag>获得荣誉</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[斐讯T1盒子破解使用]]></title>
-    <url>%2Ffx_t1.html</url>
-    <content type="text"><![CDATA[（6月18日更新）最近，听说联壁金融跑路了，我K2P的车还没有下，斐讯倒是出公告了说卖出去的K码要认，不知道有个什么说法，持续观望中。 家里面那个电信的机顶盒是真的不好用，除了能看看电视台以外，CIBN看什么都要会员，真的是够了。 （6月20日更新）今天一咬牙，在某转上买了一个斐讯T1的盒子，139块含邮费，最近因为联壁金融的跑路，二手的还涨了不少，由于是刚需，跺跺脚就买了，0元购是真的指望不上了。 今天终于到手了，先上一张图吧。 居然是4K的，我买的时候都没有注意，不过听说在4K分辨率下，机器很卡，好在我家没有4K的电视，应该不用加装散热什么的吧。 恩山上逛了一圈之后，在官改和YYF系统之间犹豫了很久，最后打算用YYF的系统。下载地址 开机确认系统版本。 如图，我的T1版本号为：DB1_0000_7.1.2_1.5T52_0505_SH，要刷第三方系统还得降级。 So let’s get started! T1降级准备工作 下载文件adb_1.0.32.zip，并解压到C:\windows\system32\路径中， 下载文件T1_1.2T33_imgs.zip，并将bootloader.img、boot.img、recovery.img三个文件放到C盘不带中文任意目录中（hash为验证文件，除了验证文件正确与否外无关紧要），如C:\Users\路径中。 准备一根USB双公头线，可以在网上或者电脑城买一根大概10几块钱，或者自己DIY做一根，参考：怎样自制双公头USB连接线 fastboot烧录 盒子和电脑连接到同一局域网内,并且确保电脑能够通过USB双公头线与盒子相连（暂时不连接，后面要提到什么时候连接），记录下盒子的IP地址（如：192.168.2.208）。 将盒子开机，在电脑中打开命令提示符（快捷键win+r，或在开始菜单的搜索栏直接输入cmd），输入： 1adb connect 192.168.2.208 此处IP地址为你实际的地址，提示”daemon started successfully.connected to xxx.xxx.xxx.xxx:xxxx(此处为你的盒子的IP地址：端口)” 盒子插上USB双公头线连接到电脑，请尽量使用电脑主板（主机箱背面）原生USB2.0接口。 cmd终端中输入运行 1adb shell reboot fastboot 此时，盒子会自动重启并进入fastboot模式。同时，windows会发现新硬件，自动安装驱动后的设备名为“Android Phone - Android ADB Interface”。 cmd中按下 Ctrl+C 恢复到终端提示符，输入运行1fastboot devices -1 此时若驱动安装成功，正确识别，会显示盒子的序列号。 在cmd中输入运行（bootloader.img、boot.img、recovery.img存放目录） 1cd c:\users 在cmd中依次输入运行以下命令烧录三个分区（每行一次回车） 123fastboot flash bootloader bootloader.imgfastboot flash boot boot.imgfastboot flash recovery recovery.img 降级完毕，退出cmd，盒子彻底断电后再加电开始刷入第三方固件。 刷入第三方固件准备工作 安装环境。下载并安装USB_Burning_Tool_v2.1.6.zip。 注意：在安装的最后阶段会提示安装设备驱动，这个一定要安装。 下载第三方固件。斐讯T1盒子固件YYFROM实用版斐讯T1盒子固件_YYFROM-NAS语音版 下载自动进入线刷模式脚本,解压到不含中文的路径中。 刷入固件 将盒子开机，并与电脑连接到同一局域网内。不要连接USB线！不要连接USB线！！不要连接USB线！！！ 打开自动进入线刷模式脚本（运行“进入线刷模式.bat”文件），输入盒子的IP地址（我的为192.168.2.208），不要按回车！不要按回车！！不要按回车！！！！ 打开打开USB_Burning_Tool2.1.6，点击文件—选导入烧录包。 注意：有的第三方烧录包（如官改）带有KEY文件，此时在导入烧录包会提示“Key文件不存在”。因此需要把SECURE_BOOT_SET文件放 USB_Burning_Tool2.1.6安装目录的licence文件夹里面，没有这个文件夹就自己新建一个。 USB_Burning_Tool2.1.6操作界面右边，在“开始”和“刷新”按钮下面，有一个烧录配置选项。取消勾选“擦除Flash”和“擦除bootloader”选项，否则会出错。 先按烧录软件的“开始”按钮，然后用双公头USB数据线连接电脑与T1盒子，最后在第3步的基础上按键盘上的回车键。稍等片刻，盒子自动重启进入线刷模式，这就开始烧录了。。。大概4-5分钟就烧录完成。 切记切记切记按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键]]></content>
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Photoshop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>个人简历</title>
+      <link href="/cv.html"/>
+      <url>/cv.html</url>
+      <content type="html"><![CDATA[<h1 id="基本资料"><a href="#基本资料" class="headerlink" title="基本资料"></a>基本资料</h1><ul><li>姓名：何沁河</li><li>性别：男</li><li>籍贯：四川泸州</li><li>出生年月：1988年4月<a id="more"></a></li></ul><h1 id="学历学位"><a href="#学历学位" class="headerlink" title="学历学位"></a>学历学位</h1><ul><li>四川大学电气信息学院通信工程工学学士</li><li>中国人民解放军沈阳炮兵学院军事学学士</li></ul><h1 id="个人简历"><a href="#个人简历" class="headerlink" title="个人简历"></a>个人简历</h1><ol><li>1995年9月至2000年6月就读于四川省泸州市泸县实验学校</li><li>2000年9月至2003年6月就读于四川省泸州外国语学校</li><li>2003年9月至2006年6月就读于四川省泸州高级中学</li><li>2006年9月至2010年6月就读于四川大学电气信息学院</li><li>2010年9月至2011年6月就读于中国人民解放军沈阳炮兵学院</li><li>2011年6月至2013年7月于中国人民解放军77171部队任排长兼党支部组织委员、团支部书记</li><li>2013年7月至2015年3月于中国人民解放军77171部队任副政治指导员兼党支部纪检委员、团支部书记</li><li>2015年3月至2017年3月于中国人民解放军77171部队司令部任参谋</li><li>2017年3月至2018年7月于中国人民解放军31676部队参谋部任参谋</li></ol><h1 id="兴趣特长"><a href="#兴趣特长" class="headerlink" title="兴趣特长"></a>兴趣特长</h1><ol><li>熟练写作，有较强的语言表达能力</li><li>有较强的组织策划能力和协调沟通能力</li><li>熟练掌握网络构建及网站设计，2007年通过全国计算机等级考试二级、2009年通过全国计算机等级考试四级（网络工程师）</li><li>熟练掌握PS、PR、AU等平面设计软件及音视频处理软件</li><li>熟练C++、python等编程语言</li><li>有较强的外语水平，2006年通过CET-4考试、2011年通过CET-6考试</li></ol><h1 id="取得证书"><a href="#取得证书" class="headerlink" title="取得证书"></a>取得证书</h1><ul><li>大学英语六级考试（教育部）（2011年考试通过未领取证书）</li><li>全国计算机等级考试四级（网络工程师）（教育部）（2009年考试通过未领取证书）</li><li>心理咨询师三级（劳动和社会保障部）</li></ul><h1 id="获得荣誉"><a href="#获得荣誉" class="headerlink" title="获得荣誉"></a>获得荣誉</h1><ul><li>2006年4月，于泸州高中被评为三好学生</li><li>2007年12月，于四川大学荣获单项一等奖学金</li><li>2009年6月，于四川大学被评为优秀国防生</li><li>2010年6月，于中国人民解放军沈阳炮兵学院获得优秀学员、记嘉奖1次</li><li>2012年6月，于中国人民解放军77171部队取得参谋岗位比武第一名</li><li>2012年11月，于中国人民解放军77171部队立“三等功”1次，记嘉奖1次</li><li>2013年获得“执行四川芦山抗震救灾任务纪念章”</li></ul><h1 id="部分证书及荣誉"><a href="#部分证书及荣誉" class="headerlink" title="部分证书及荣誉"></a>部分证书及荣誉</h1><h2 id="学历证明"><a href="#学历证明" class="headerlink" title="学历证明"></a>学历证明</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/byz.jpg" width="75%" height="75%" alt="毕业证"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/xuewei1.jpg" width="75%" height="75%" alt="工学学士学位"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/xuewei2.jpg" width="75%" height="75%" alt="军事学学士学位"></p><h2 id="心理咨询师资格证（三级）"><a href="#心理咨询师资格证（三级）" class="headerlink" title="心理咨询师资格证（三级）"></a>心理咨询师资格证（三级）</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/xlzxs3.jpg" width="75%" height="75%" alt="心理咨询师"></p><h2 id="获得荣誉-1"><a href="#获得荣誉-1" class="headerlink" title="获得荣誉"></a>获得荣誉</h2><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/zhengshu.jpg" width="75%" height="75%" alt="证书全家福"></p><h3 id="三等功奖章"><a href="#三等功奖章" class="headerlink" title="三等功奖章"></a>三等功奖章</h3><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/sdgjz.jpg" width="50%" height="50%" alt="三等功奖章"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/sdg.jpg" width="50%" height="50%" alt="三等功封面"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/3dg.jpg" width="50%" height="50%" alt="三等功"></p><h3 id="执行重大任务纪念奖章（四川芦山抗震救灾）"><a href="#执行重大任务纪念奖章（四川芦山抗震救灾）" class="headerlink" title="执行重大任务纪念奖章（四川芦山抗震救灾）"></a>执行重大任务纪念奖章（四川芦山抗震救灾）</h3><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/jnz.jpg" width="50%" height="50%" alt="执行重大任务纪念奖章"></p><h3 id="在校期间获得荣誉"><a href="#在校期间获得荣誉" class="headerlink" title="在校期间获得荣誉"></a>在校期间获得荣誉</h3><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/jxj.jpg" width="75%" height="75%" alt="奖学金"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/yxgfs.jpg" width="75%" height="75%" alt="优秀国防生"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/shxs.jpg" width="75%" height="75%" alt="三好学生"></p>]]></content>
+      
       <categories>
-        <category>科学上网</category>
+          
+          <category> 简历 </category>
+          
       </categories>
-      <tags>
-        <tag>电视盒子</tag>
-        <tag>GoogleServicesFramework</tag>
-        <tag>adb</tag>
-        <tag>IPTV</tag>
-        <tag>T1</tag>
-        <tag>系统降级</tag>
-        <tag>第三方固件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[让声音更加浑厚——效果器EQ详解]]></title>
-    <url>%2Fau1.html</url>
-    <content type="text"><![CDATA[在做视频后期的时候 我想让人声更清晰、更温暖，咋整？ 背景音乐很棒，但是它盖过了人声，我又不想降低音乐的音量，怎么办？ 我想让音乐更劲爆一点，咋整？ 想让人声听起来是从电话、耳机里传出来的，咋整？？ 想让声音听起来是从远方传来的，但只降低音量又不像，咋整？？？ 用EQ！！看完本文，你会得到能马上应用的答案。 理解EQEQ是什么EQ的全称是Equalizer，EQ是Equalizer的前两个字母，中文名字叫做“均衡器”。Equal的意思是“相同的”，Equalizer就是“使相同者”，所以翻译成均衡器。 为什么叫它均衡呢，因为EQ之所以被发明出来，最早是用来提升电话信号在长距离的传输中损失的高频，由此得到一个各频带相对平衡的结果，所以叫它“均衡器”，它让各个频带的声音得到了均衡。 EQ的主要功能是：单独提升或降低一个声音特定频 带的音量，而不影响其他频带。 什么是频带呢。人耳能听见的频率在20Hz到20000Hz之间（Hz是频率的单位，念“赫兹”），如果在这中间取一个区间，就叫做一个频带，比如100Hz－300Hz就是一个频带。 看懂EQ的操作界面最容易理解的EQ是图示均衡器（Graphic Equalizer），如下图 可以看到这种EQ是把频率分为若干个频带，你动其中一个频带的推子，就改变了这个频带的音量。 但是图示均衡器有一个缺点，它只能改变固定频带的音量，假如我们想改变1.5kHz处的音量，就没有办法了，因为它只提供了调整1kHz和2kHz的推子： 所以，最常用的是另一种EQ，叫做参数均衡器（Parametric Equalizer）： 这种EQ可以随意定义频点的频率，在写有Hz数的地方输入不同的数值，再输入更改的dB数（分贝），就能改变这个频率的音量。 到这里有一个问题，我们前面说过，EQ是改变某个频带的音量，但我们设置的是单个的频率数值，并不是频带啊，怎么确定频带的宽度呢？ 有一个参数叫做Q值： 以频点为中心，Q值越大，受影响的频带就越窄： Q值越小，受影响的频带就越宽： 1.8kHz提升3dB（Q=1）。 它的实现方法就是这样：首先找一个与1.8kHz接近频点，然后将它的数值修改为1800，然后输入提升的数值3dB，最后把Q值改为1就可以了： 如何单独提升低频、高频？ 由于我们经常会有“把低频提升一些”这种想法，所以有一种快速的调整方式，叫做shelve，它跟我想象的“提升低频”这个动作是最接近的： 看，整个低频都被提升起来了，当然也可以衰减（降低音量）： 低频的shelve叫做Low Shelve，高频的shelve则叫做High Shelve，比如这样： 低通、高通滤波器在音乐制作中，一般会把100Hz以下的低频切掉，因为乐器和人声一般在这个频带没有声音，其中有的很可能是噪音，这个时候，我们就需要一个“高通滤波器（High Pass Filter，简称HP）”，如下图： 所谓“高通”，就是“只让高频通过”的意思，只让高频通过，低频自然就没有了，所以记住切低频的时候要用高通滤波器。 与之相对的，是低通滤波器，它自然就是用来切除高频的了： 到这里又有一个问题，不是说切掉低频吗，为什么不是这样： 而是有一个斜坡呢？ 这个斜坡叫做slope（斜率），它的单位是dB／Oct（中文念“分贝每八度”），我们可以先不去管它是什么意思，只要知道，斜率值越大，坡就越陡，就越接近我们想象中的“切掉”的样子： 好了我们来回顾一下，理解这些名词的意思，你就能看懂90%的EQ界面了： 均衡器 EQ=Equalizer 图示均衡器 Graphic Equalizer 参数均衡器 Parametric Equalizer 频带 Frequency Band 增益 Gain 衰减 Reduction 高通滤波器 High Pass Filter 缩写 HP 低通滤波器 Low Pass Filter 缩写LP 斜率 Slope，单位是dB/Oct Q值 Q Hight Shelve 在auditon的参数均衡器中缩写为H Low helve 在audition的参数均衡器中缩写为L EQ在视频后期中的具体用法改善人声加强人声1.8kHz提升3dB（Q=1）可以增加人声的清晰度，1.8kHz提升6dB（Q=0.5）可以加强人声。（之所以能加强人声是因为1.75kHz是多数辅音的基频） 去掉齿音齿音一般在4-5kHz，对5kHz进行－18dB的衰减（Q=100）可以去掉一些齿音。但是EQ并不是去齿音的最好方法，专门去齿音的效果器叫de-esser。 处理音乐，让人声更容易被听见人声说话的频率范围在1000到4000Hz之间，在音乐轨上把1.75kHz降低-3dB（Q=1），这样音乐就不会淹没掉人声了。 提升温暖度切掉90hz以下的声音，把240Hz提升3dB（Q=7）增加温暖的感觉，但注意不要提升太多低频，它们会让大部分的视频音轨变的含混不清。 让男性的声音更浑厚160Hz提升2dB（Q=1）。 去掉低频、高频噪声如果人声录音中存在低频噪声，可以试试高斜率的高通滤波器，截止频点设置在130Hz（男声）或200Hz（女声）左右。如果人声录音中有高频噪声，可以添加一个高斜率的低通滤波器，截止频点设置在8kHz。 让音乐更劲爆如果没有人声，可以对音乐进行：对100Hz提升6dB（Q=3），在3kHz做6dB的High Shelf。 利用EQ增强距离感音乐音频工程师经常把midrange EQualizer称为“presence”控制，它会极大影响声音的远近，提升中频，特别是1.2kHz到2.5kHz，会让声音听起来靠前。 高频在空气中传播的时候会被吸收，在室内这不明显，但衰减室外声音的高频可以增加距离感。 例如，为了让室外的声音听起来更远，可以添加一个low shelve对500Hz进行+12dB的提升，然后用一个high shelve对1.5kHz进行-12dB的衰减，然后调低音量。 制作特殊效果模拟电话人声一般设置：高通滤波器截止频率设置在350Hz，然后再加一个低通滤波器，截止频率在3500Hz。 《Au系列1 让视频更好听:06.如何让声音听起来像电话里传来的？》 模拟耳机播放音乐《Au系列1 让视频更好听:06.如何让声音听起来像电话里传来的？》 制作特殊的混响淡出效果《淡出谁都会，见过音量不变也能淡出的么…》 模拟老式留声机的声音《复古人声的制作方法（黑白电影、老式留声机）》 EQ使用建议 基本上所有的EQ处理都位于200Hz——10kHz，并且这个范围里大多在3kHz以下，在这个频带之外的处理可能会增加噪音。 一般来讲，增益和衰减不要超过6dB。 谨慎提升低频，EQ并不会增加本来不存在的频率，过度提升低频会让声音发闷，而不会增加低频位置原来没有的频谱。 衰减永远要比提升好。 处理人声的时候，过窄的EQ最好不要用，用尽量宽的q值来达到想要的效果。 关于预置：许多EQ效果器都带有预置，这些预置可以作为你调整的起点，但是注意这些预置很可能是为音乐制作设计的，所以很可能不适合视频后期的声音处理，最好是调用预置之后调整到适合你音轨的状态。 说明此文来自doyoudo.com，是我用于熟练markdown语言所用，严禁任何人用于别的用途。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 基本资料 </tag>
+            
+            <tag> 学历学位 </tag>
+            
+            <tag> 取得证书 </tag>
+            
+            <tag> 获得荣誉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>斐讯T1盒子破解使用</title>
+      <link href="/fx_t1.html"/>
+      <url>/fx_t1.html</url>
+      <content type="html"><![CDATA[<p>（6月18日更新）最近，听说联壁金融跑路了，我K2P的车还没有下，<br><del>斐讯倒是出公告了说卖出去的K码要认</del>，不知道有个什么说法，持续观望中。</p><p>家里面那个电信的机顶盒是真的不好用，除了能看看电视台以外，CIBN看什么都要会员，真的是够了。</p><p>（6月20日更新）今天一咬牙，在某转上买了一个斐讯T1的盒子，139块含邮费，最近因为联壁金融的跑路，二手的还涨了不少，由于是刚需，跺跺脚就买了，0元购是真的指望不上了。</p><a id="more"></a><p>今天终于到手了，先上一张图吧。</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/T1.jpg" width="50%" height="50%" alt="T1"></p><p><del>居然是4K的，我买的时候都没有注意，不过听说在4K分辨率下，机器很卡，好在我家没有4K的电视，应该不用加装散热什么的吧。</del></p><p><a href="http://www.right.com.cn" target="_blank" rel="noopener">恩山</a>上逛了一圈之后，在官改和YYF系统之间犹豫了很久，最后打算用YYF的系统。<a href="http://www.yyfrom.com/cms/index.html" target="_blank" rel="noopener">下载地址</a></p><p>开机确认系统版本。</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/1.png" width="50%" height="50%" alt="T1"></p><p>如图，我的T1版本号为：DB1_0000_7.1.2_1.5T52_0505_SH，要刷第三方系统还得降级。</p><p>So let’s get started!</p><h1 id="T1降级"><a href="#T1降级" class="headerlink" title="T1降级"></a>T1降级</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li><p>下载文件<a href="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/adb_1.0.32.zip" target="_blank" rel="noopener">adb_1.0.32.zip</a>，并解压到C:\windows\system32\路径中，</p></li><li><p>下载文件<a href="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/T1_1.2T33_imgs.zip" target="_blank" rel="noopener">T1_1.2T33_imgs.zip</a>，并将bootloader.img、boot.img、recovery.img三个文件放到C盘不带中文任意目录中（hash为验证文件，除了验证文件正确与否外无关紧要），如C:\Users\路径中。</p></li><li><p>准备一根USB双公头线，可以在网上或者电脑城买一根大概10几块钱，或者自己DIY做一根，参考：<a href="https://jingyan.baidu.com/article/4f34706e88fc2be387b56dce.html" target="_blank" rel="noopener">怎样自制双公头USB连接线</a></p></li></ol><h2 id="fastboot烧录"><a href="#fastboot烧录" class="headerlink" title="fastboot烧录"></a>fastboot烧录</h2><ol><li><p>盒子和电脑连接到同一局域网内,并且确保电脑能够通过USB双公头线与盒子相连（暂时不连接，后面要提到什么时候连接），记录下盒子的IP地址（如：192.168.2.208）。</p></li><li><p>将盒子开机，在电脑中打开命令提示符（快捷键win+r，或在开始菜单的搜索栏直接输入cmd），输入：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">adb</span> <span class="selector-tag">connect</span> 192<span class="selector-class">.168</span><span class="selector-class">.2</span><span class="selector-class">.208</span></span><br></pre></td></tr></table></figure></li></ol><p>此处IP地址为你实际的地址，提示”daemon started successfully.connected to xxx.xxx.xxx.xxx:xxxx(此处为你的盒子的IP地址：端口)”</p><ol start="3"><li><p>盒子插上USB双公头线连接到电脑，请尽量使用电脑主板（主机箱背面）原生USB2.0接口。</p></li><li><p>cmd终端中输入运行</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb <span class="keyword">shell</span><span class="bash"> reboot fastboot</span></span><br></pre></td></tr></table></figure></li></ol><p>此时，盒子会自动重启并进入fastboot模式。同时，windows会发现新硬件，自动安装驱动后的设备名为“Android Phone - Android ADB Interface”。</p><ol start="5"><li>cmd中按下 Ctrl+C 恢复到终端提示符，输入运行<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fastboot devices <span class="number">-1</span></span><br></pre></td></tr></table></figure></li></ol><p>此时若驱动安装成功，正确识别，会显示盒子的序列号。</p><ol start="6"><li><p>在cmd中输入运行（bootloader.img、boot.img、recovery.img存放目录）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> c:\users</span><br></pre></td></tr></table></figure></li><li><p>在cmd中依次输入运行以下命令烧录三个分区（每行一次回车）</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">fastboot</span> flash <span class="keyword">bootloader </span><span class="keyword">bootloader.img</span></span><br><span class="line"><span class="keyword">fastboot </span>flash <span class="keyword">boot </span><span class="keyword">boot.img</span></span><br><span class="line"><span class="keyword">fastboot </span>flash recovery recovery.img</span><br></pre></td></tr></table></figure></li><li><p>降级完毕，退出cmd，盒子彻底断电后再加电开始刷入第三方固件。</p></li></ol><h1 id="刷入第三方固件"><a href="#刷入第三方固件" class="headerlink" title="刷入第三方固件"></a>刷入第三方固件</h1><h2 id="准备工作-1"><a href="#准备工作-1" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>安装环境。下载并安装<a href="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/USB_Burning_Tool_v2.1.6.zip" target="_blank" rel="noopener">USB_Burning_Tool_v2.1.6.zip</a>。</li></ol><p>注意：在安装的最后阶段会提示安装设备驱动，这个一定要安装。</p><ol start="2"><li><p>下载第三方固件。<br><a href="http://yyfrom.com/cms/yyfrom/product/2018-4-15/158.html" target="_blank" rel="noopener">斐讯T1盒子固件<em>YYFROM</em>实用版</a><br><a href="http://yyfrom.com/cms/yyfrom/product/2018-4-9/157.html" target="_blank" rel="noopener">斐讯T1盒子固件_YYFROM-NAS语音版</a></p></li><li><p>下载<a href="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/adb%E8%84%9A%E6%9C%AC_%E8%BF%9B%E5%85%A5%E7%BA%BF%E5%88%B7%E6%A8%A1%E5%BC%8F.zip" target="_blank" rel="noopener">自动进入线刷模式脚本</a>,解压到不含中文的路径中。</p></li></ol><h2 id="刷入固件"><a href="#刷入固件" class="headerlink" title="刷入固件"></a>刷入固件</h2><ol><li><p>将盒子开机，并与电脑连接到同一局域网内。不要连接USB线！不要连接USB线！！不要连接USB线！！！</p></li><li><p>打开自动进入线刷模式脚本（运行“进入线刷模式.bat”文件），输入盒子的IP地址（我的为192.168.2.208），不要按回车！不要按回车！！不要按回车！！！！</p></li><li><p>打开打开USB_Burning_Tool2.1.6，点击文件—选导入烧录包。</p></li></ol><p>注意：有的第三方烧录包（如官改）带有KEY文件，此时在导入烧录包会提示“Key文件不存在”。因此需要把SECURE_BOOT_SET文件放 USB_Burning_Tool2.1.6安装目录的licence文件夹里面，没有这个文件夹就自己新建一个。</p><ol start="4"><li>USB_Burning_Tool2.1.6操作界面右边，在“开始”和“刷新”按钮下面，有一个烧录配置选项。取消勾选“擦除Flash”和“擦除bootloader”选项，否则会出错。</li></ol><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/fx/2.png" width="30%" height="30%" alt="T1"></p><ol start="5"><li>先按烧录软件的“开始”按钮，然后用双公头USB数据线连接电脑与T1盒子，最后在第3步的基础上按键盘上的回车键。稍等片刻，盒子自动重启进入线刷模式，这就开始烧录了。。。大概4-5分钟就烧录完成。</li></ol><blockquote><p>切记切记切记<br>按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键<br>按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键<br>按开始按钮—插USB双公头数据线—在刚才输了IP地址那里按回车键</p></blockquote>]]></content>
+      
       <categories>
-        <category>Audition</category>
+          
+          <category> 科学上网 </category>
+          
       </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>效果器</tag>
-        <tag>EQ</tag>
-        <tag>doyoudo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Github上配置Hexo 3.0]]></title>
-    <url>%2Fhexo.html</url>
-    <content type="text"><![CDATA[Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 —– Hexo官方 安装Hexo准备 Node.js 推荐下载msi格式稳定版，新版已经会自动配置Path Github Desktop Github官方出品 不需要再去配置SSH KEY ，但在线安装模式不开翻墙会有些麻烦 Git Shell操作 打开桌面上的Git Shell,之后的操作都在这上面完成 安装Hexo 在Git Shell输入以下代码 12npm install hexo-cli -gnpm install hexo --save 建站 根据喜好创建一个文件夹（F:\GitHub\hexo）用于放置你的hexo 123cd F:\GitHub\hexohexo initnpm install 安装Hexo插件12345678910111213npm install hexo-generator-index --savenpm install hexo-generator-archive --savenpm install hexo-generator-category --savenpm install hexo-generator-tag --savenpm install hexo-server --savenpm install hexo-deployer-git --savenpm install hexo-deployer-heroku --savenpm install hexo-deployer-rsync --savenpm install hexo-deployer-openshift --savenpm install hexo-renderer-marked@0.2 --savenpm install hexo-renderer-stylus@0.2 --savenpm install hexo-generator-feed@1 --savenpm install hexo-generator-sitemap@1 --save 本地预览12hexo ghexo s 复合命令1hexo s -g 完成会提示你在 0.0.0.0:4000查看，但会无法显示，去localhost:4000/查看 部署静态网页到GitHubGithub建立仓库 创建一个Github账号 创建仓库，new repository,Repository name的格式必须是你的username.github.io（我之前把username错打成paraicde一直没发现，导致卡部署卡了好几天） 部署deploy 打开hexo_config.yml,修改最后一段,把所有的paracide改成你的username 1234deploy: type: git repository: https://github.com/paracide/paracide.github.io.git branch: master 上传Github12hexo ghexo d 复合代码1hexo d -g 第一次提交需要等到5分钟+，然后就可以看到你的静态博客了（例如paracide.github.io） 如果你配置出了问题很大原因是少了个 空格 参考 安装和配置hexo 3.0 Hexo进阶折腾 如何搭建一个独立博客——简明Github Pages与Hexo教程 使用GitHub和Hexo搭建免费静态Blog NEXT官方文档 如何在 VPS 上面搭建 hexo 博客(小白教程)]]></content>
+      
+      
+        <tags>
+            
+            <tag> 电视盒子 </tag>
+            
+            <tag> GoogleServicesFramework </tag>
+            
+            <tag> adb </tag>
+            
+            <tag> IPTV </tag>
+            
+            <tag> T1 </tag>
+            
+            <tag> 系统降级 </tag>
+            
+            <tag> 第三方固件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>让声音更加浑厚——效果器EQ详解</title>
+      <link href="/au1.html"/>
+      <url>/au1.html</url>
+      <content type="html"><![CDATA[<ul><li>在做视频后期的时候</li><li>我想让人声更清晰、更温暖，咋整？</li><li>背景音乐很棒，但是它盖过了人声，我又不想降低音乐的音量，怎么办？</li><li>我想让音乐更劲爆一点，咋整？</li><li>想让人声听起来是从电话、耳机里传出来的，咋整？？</li><li>想让声音听起来是从远方传来的，但只降低音量又不像，咋整？？？</li></ul><p><strong>用EQ！！</strong><br>看完本文，你会得到能马上应用的答案。<br><a id="more"></a></p><h1 id="理解EQ"><a href="#理解EQ" class="headerlink" title="理解EQ"></a>理解EQ</h1><h2 id="EQ是什么"><a href="#EQ是什么" class="headerlink" title="EQ是什么"></a>EQ是什么</h2><p>EQ的全称是Equalizer，EQ是Equalizer的前两个字母，中文名字叫做“均衡器”。Equal的意思是“相同的”，Equalizer就是“使相同者”，所以翻译成均衡器。</p><p>为什么叫它均衡呢，因为EQ之所以被发明出来，最早是用来提升电话信号在长距离的传输中损失的高频，由此得到一个各频带相对平衡的结果，所以叫它“均衡器”，它让各个频带的声音得到了均衡。</p><p><strong>EQ的主要功能是：单独提升或降低一个声音特定频 带的音量，而不影响其他频带。</strong></p><p>什么是频带呢。人耳能听见的频率在20Hz到20000Hz之间（Hz是频率的单位，念“赫兹”），如果在这中间取一个区间，就叫做一个频带，比如100Hz－300Hz就是一个频带。</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/1.png" alt="频带"></p><h2 id="看懂EQ的操作界面"><a href="#看懂EQ的操作界面" class="headerlink" title="看懂EQ的操作界面"></a>看懂EQ的操作界面</h2><p>最容易理解的EQ是图示均衡器（Graphic Equalizer），如下图</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/2.png" alt="均衡器"></p><p>可以看到这种EQ是把频率分为若干个频带，你动其中一个频带的推子，就改变了这个频带的音量。</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/3.png" alt="处理前后"> </p><p>但是图示均衡器有一个缺点，它只能改变固定频带的音量，假如我们想改变1.5kHz处的音量，就没有办法了，因为它只提供了调整1kHz和2kHz的推子： </p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/4.png" alt="不全"></p><p>所以，最常用的是另一种EQ，叫做参数均衡器（Parametric Equalizer）： </p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/5.png" alt="参数均衡器"></p><p>这种EQ可以随意定义频点的频率，在写有Hz数的地方输入不同的数值，再输入更改的dB数（分贝），就能改变这个频率的音量。 </p><p>到这里有一个问题，我们前面说过，EQ是改变某个频带的音量，但我们设置的是单个的频率数值，并不是频带啊，怎么确定频带的宽度呢？ </p><p>有一个参数叫做Q值：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/6.png" alt="Q值"></p><p>以频点为中心，Q值越大，受影响的频带就越窄：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/7.png" alt="大Q"></p><p>Q值越小，受影响的频带就越宽：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/8.png" alt="小Q"></p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/9.png" alt="对比"></p><ul><li>1.8kHz提升3dB（Q=1）。</li></ul><p>它的实现方法就是这样：首先找一个与1.8kHz接近频点，然后将它的数值修改为1800，然后输入提升的数值3dB，最后把Q值改为1就可以了：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/10.png" alt="例"></p><p>如何单独提升低频、高频？</p><p>由于我们经常会有“把低频提升一些”这种想法，所以有一种快速的调整方式，叫做shelve，它跟我想象的“提升低频”这个动作是最接近的：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/11.png" alt="例"></p><p>看，整个低频都被提升起来了，当然也可以衰减（降低音量）：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/12.png" alt="例"></p><p>低频的shelve叫做Low Shelve，高频的shelve则叫做High Shelve，比如这样：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/13.png" alt="例"></p><h2 id="低通、高通滤波器"><a href="#低通、高通滤波器" class="headerlink" title="低通、高通滤波器"></a>低通、高通滤波器</h2><p>在音乐制作中，一般会把100Hz以下的低频切掉，因为乐器和人声一般在这个频带没有声音，其中有的很可能是噪音，这个时候，我们就需要一个“高通滤波器（High Pass Filter，简称HP）”，如下图：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/14.png" alt="例"></p><p>所谓“高通”，就是“只让高频通过”的意思，只让高频通过，低频自然就没有了，所以记住切低频的时候要用高通滤波器。</p><p>与之相对的，是低通滤波器，它自然就是用来切除高频的了：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/15.png" alt="例"></p><p>到这里又有一个问题，不是说切掉低频吗，为什么不是这样：</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/16.png" alt="例"></p><p>而是有一个斜坡呢？</p><p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/au/17.png" alt="例"></p><p>这个斜坡叫做slope（斜率），它的单位是dB／Oct（中文念“分贝每八度”），我们可以先不去管它是什么意思，只要知道，斜率值越大，坡就越陡，就越接近我们想象中的“切掉”的样子：</p><p>好了我们来回顾一下，理解这些名词的意思，你就能看懂90%的EQ界面了：</p><p>均衡器  EQ=Equalizer  </p><p>图示均衡器  Graphic  Equalizer  </p><p>参数均衡器  Parametric  Equalizer  </p><p>频带  Frequency  Band  </p><p>增益  Gain  </p><p>衰减  Reduction  </p><p>高通滤波器  High  Pass  Filter  缩写  HP  </p><p>低通滤波器  Low Pass  Filter  缩写LP  </p><p>斜率  Slope，单位是dB/Oct  </p><p>Q值    Q  </p><p>Hight Shelve  在auditon的参数均衡器中缩写为H</p><p>Low helve  在audition的参数均衡器中缩写为L</p><h1 id="EQ在视频后期中的具体用法"><a href="#EQ在视频后期中的具体用法" class="headerlink" title="EQ在视频后期中的具体用法"></a>EQ在视频后期中的具体用法</h1><h2 id="改善人声"><a href="#改善人声" class="headerlink" title="改善人声"></a>改善人声</h2><h3 id="加强人声"><a href="#加强人声" class="headerlink" title="加强人声"></a>加强人声</h3><p>1.8kHz提升3dB（Q=1）可以增加人声的清晰度，1.8kHz提升6dB（Q=0.5）可以加强人声。（之所以能加强人声是因为1.75kHz是多数辅音的基频） </p><h3 id="去掉齿音"><a href="#去掉齿音" class="headerlink" title="去掉齿音"></a>去掉齿音</h3><p>齿音一般在4-5kHz，对5kHz进行－18dB的衰减（Q=100）可以去掉一些齿音。但是EQ并不是去齿音的最好方法，专门去齿音的效果器叫de-esser。</p><h3 id="处理音乐，让人声更容易被听见"><a href="#处理音乐，让人声更容易被听见" class="headerlink" title="处理音乐，让人声更容易被听见"></a>处理音乐，让人声更容易被听见</h3><p>人声说话的频率范围在1000到4000Hz之间，在音乐轨上把1.75kHz降低-3dB（Q=1），这样音乐就不会淹没掉人声了。</p><h3 id="提升温暖度"><a href="#提升温暖度" class="headerlink" title="提升温暖度"></a>提升温暖度</h3><p>切掉90hz以下的声音，把240Hz提升3dB（Q=7）增加温暖的感觉，但注意不要提升太多低频，它们会让大部分的视频音轨变的含混不清。</p><h3 id="让男性的声音更浑厚"><a href="#让男性的声音更浑厚" class="headerlink" title="让男性的声音更浑厚"></a>让男性的声音更浑厚</h3><p>160Hz提升2dB（Q=1）。</p><h3 id="去掉低频、高频噪声"><a href="#去掉低频、高频噪声" class="headerlink" title="去掉低频、高频噪声"></a>去掉低频、高频噪声</h3><p>如果人声录音中存在低频噪声，可以试试高斜率的高通滤波器，截止频点设置在130Hz（男声）或200Hz（女声）左右。如果人声录音中有高频噪声，可以添加一个高斜率的低通滤波器，截止频点设置在8kHz。</p><h2 id="让音乐更劲爆"><a href="#让音乐更劲爆" class="headerlink" title="让音乐更劲爆"></a>让音乐更劲爆</h2><p>如果没有人声，可以对音乐进行：对100Hz提升6dB（Q=3），在3kHz做6dB的High Shelf。</p><h2 id="利用EQ增强距离感"><a href="#利用EQ增强距离感" class="headerlink" title="利用EQ增强距离感"></a>利用EQ增强距离感</h2><p>音乐音频工程师经常把midrange EQualizer称为“presence”控制，它会极大影响声音的远近，提升中频，特别是1.2kHz到2.5kHz，会让声音听起来靠前。</p><p>高频在空气中传播的时候会被吸收，在室内这不明显，但衰减室外声音的高频可以增加距离感。</p><p>例如，为了让室外的声音听起来更远，可以添加一个low shelve对500Hz进行+12dB的提升，然后用一个high shelve对1.5kHz进行-12dB的衰减，然后调低音量。</p><h2 id="制作特殊效果"><a href="#制作特殊效果" class="headerlink" title="制作特殊效果"></a>制作特殊效果</h2><h3 id="模拟电话人声"><a href="#模拟电话人声" class="headerlink" title="模拟电话人声"></a>模拟电话人声</h3><p>一般设置：高通滤波器截止频率设置在350Hz，然后再加一个低通滤波器，截止频率在3500Hz。</p><p><a href="http://doyoudo.com/p/5001021.html" target="_blank" rel="noopener">《Au系列1 让视频更好听:06.如何让声音听起来像电话里传来的？》 </a></p><h3 id="模拟耳机播放音乐"><a href="#模拟耳机播放音乐" class="headerlink" title="模拟耳机播放音乐"></a>模拟耳机播放音乐</h3><p><a href="http://doyoudo.com/p/5001021.html" target="_blank" rel="noopener">《Au系列1 让视频更好听:06.如何让声音听起来像电话里传来的？》</a></p><h3 id="制作特殊的混响淡出效果"><a href="#制作特殊的混响淡出效果" class="headerlink" title="制作特殊的混响淡出效果"></a>制作特殊的混响淡出效果</h3><p><a href="http://doyoudo.com/p/5001064.html" target="_blank" rel="noopener">《淡出谁都会，见过音量不变也能淡出的么…》</a></p><h3 id="模拟老式留声机的声音"><a href="#模拟老式留声机的声音" class="headerlink" title="模拟老式留声机的声音"></a>模拟老式留声机的声音</h3><p><a href="http://doyoudo.com/p/5001063.html" target="_blank" rel="noopener">《复古人声的制作方法（黑白电影、老式留声机）》</a></p><h1 id="EQ使用建议"><a href="#EQ使用建议" class="headerlink" title="EQ使用建议"></a>EQ使用建议</h1><ol><li><p>基本上所有的EQ处理都位于200Hz——10kHz，并且这个范围里大多在3kHz以下，在这个频带之外的处理可能会增加噪音。</p></li><li><p>一般来讲，增益和衰减不要超过6dB。</p></li><li><p>谨慎提升低频，EQ并不会增加本来不存在的频率，过度提升低频会让声音发闷，而不会增加低频位置原来没有的频谱。</p></li><li><p>衰减永远要比提升好。</p></li><li><p>处理人声的时候，过窄的EQ最好不要用，用尽量宽的q值来达到想要的效果。</p></li><li><p>关于预置：许多EQ效果器都带有预置，这些预置可以作为你调整的起点，但是注意这些预置很可能是为音乐制作设计的，所以很可能不适合视频后期的声音处理，最好是调用预置之后调整到适合你音轨的状态。</p></li></ol><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>此文来自<a href="http://doyoudo.com/" target="_blank" rel="noopener">doyoudo.com</a>，是我用于熟练markdown语言所用，严禁任何人用于别的用途。</p>]]></content>
+      
       <categories>
-        <category>Hexo</category>
+          
+          <category> Audition </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>GitHub</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Shadowsocks的搭建]]></title>
-    <url>%2Fshadowsocks.html</url>
-    <content type="text"><![CDATA[VPSDigitalOcean Github的学生礼包赠送$100的赞助,可供使用20个月,现在是否还支持国内大学邮箱不确定，若干兑换码无法使用，在Support中Open a Support Ticket联系DO让他们帮助你。 DO首次充值 $5(最低)还会赠送$10。 电信平常速度仅300K/s左右(旧金山,新加坡机房),搭配上锐速,100M电信情况下最高达到过9M/s,Youtube1080P无压力,Twitch在换了SSR后已经无法流畅观看，原因未知。 使用几周后就会出现大规模的抽风,经测试是四川电信宽带的问题 Bandwagon 大名鼎鼎的搬瓦工,支持支付宝,以前便宜的包年$3.99/,$4.99已经没货了,最便宜的已达到$20一年 四川电信网络下表现仅有100~200K/s,学校移动宽带表现不错可达1M/s(满速). 支持一键搭建shadowsocks,很方便 电信 电信国际出口流量大规模丢包问题在知乎上找到了相关解答,解决方案似乎只有换网络商或者走CN2路线中转。 Shadowsocks的搭建DigitalOcean为例部署 Droplet创建 在官网右上角点击CreateDroplet,选择最低的$5/mo,仅用于翻墙已经足够了 服务器测速后进行选择 Linux系统在锐速支持列表选择一持,如果没有,在创建好Droplte也可以在之后更换内核 在邮箱查收IP地址,用户名,密码 Putty 后续操作都要通过Putty连接VPS完成 下载安装Putty后打开,输入邮件里的IP,连接方式SSH,端口22 输入用户,密码(输入密码时并不会显示任何字符包括*,输完回车即可),密码需要连续输入2次,复制后右击即可粘贴成功,之后在输入两次新的密码 基本库安装 由于Shadowsocks原作者clowwindy被请喝茶,这里使用breakwa11的shadowsocksR,(目测breakwa11也暂时不维护了) 以下命令均以root用户执行(复制,右击复制回车即可) 0centos： 1yum install m2crypto git libsodium ubuntu/debian： 1apt-get install m2crypto git 获取源代码1git clone -b manyuser https://github.com/breakwa11/shadowsocks.git 执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。 根目录即 ./shadowsocks 子目录即 ./shadowsocks/shadowsocks 服务端配置进入子目录：1cd shadowsocks/shadowsocks Vim编辑器 Vim编辑器没接触过的人肯定不会用 这里简单以编写配置文件来说明下搭建shadowsocks时用到的命令 建立配置文件 ,会看到简单的json文件内容 1vi /etc/shadowsocks.json 输入i 回车,进入插入模式 写入以下内容,完成后输入 :wq 即可保存退出 12345678910111213&#123; "server":"0.0.0.0", "server_ipv6":"::", "server_port":8388, "local_address":"127.0.0.1", "local_port":1080, "password":"mypassword", "timeout":300, "method":"aes-256-cfb", "obfs":"http_simple", "fast_open":false, "workers":1&#125; 一般情况下，只需要修改以下五项即可： 12345"server_port":8388, //端口"password":"password", //密码"protocol":"origin", //协议插件"obfs":"http_simple", //混淆插件"method":"aes-256-cfb", //加密方式 ###运行服务运行子目录内的server.py： 1python server.py -c /etc/shadowsocks.json 如果要在后台运行： 1python server.py -c /etc/shadowsocks.json -d start 如果要停止/重启： 1python server.py -c /etc/shadowsocks.json -d restart 查看日志： 1tail -f /var/log/shadowsocks.log 更新源代码如果代码有更新可用本命令更新代码进入shadowsocks目录 1cd shadowsocks 执行 1git pull 成功后重启ss服务 IPv6解决google学术被墙,google搜索验证码 DigtalOcean的部分IP会被Google学术屏蔽,修改hosts强制使用IPv6访问 最近Google搜索也经常验证码,还是得通过改hosts解决 IPv6解决验证码不起作用,几天后还是出现了验证码,在Google+上看到别人讨论,似乎google封了DO部分服务器,唉,换IP吧 创建vps时勾选IPv61vi /etc/hosts 文本末端加入 1234562607:f8b0:4005:801::200e google.com2607:f8b0:4005:801::200e www.google.com2607:f8b0:4007:805::100fscholar.google.cn2607:f8b0:4007:805::100fscholar.google.com2607:f8b0:4007:805::100fscholar.google.com.hk2607:f8b0:4007:805::100fscholar.l.google.com 更改时区SSR的部分插件需要本地时间和VPS时间相差不超过X分钟需要更改VPS的时区 12rm -rf /etc/localtimeln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 阻止百毒IP定位逛V2EX时候发现了这么一个问题,查了下SS的IP果然被定位了,虽然是我朋友家- - SSR作者提供了这么一个解决方案 在代理服务器及本地的HOST都添加如下 123456789101112131415161.0.0.1 api.map.baidu.com1.0.0.1 ps.map.baidu.com1.0.0.1 sv.map.baidu.com1.0.0.1 offnavi.map.baidu.com1.0.0.1 newvector.map.baidu.com1.0.0.1 ulog.imap.baidu.com1.0.0.1 newloc.map.n.shifen.com::2 api.map.baidu.com::2 ps.map.baidu.com::2 sv.map.baidu.com::2 offnavi.map.baidu.com::2 newvector.map.baidu.com::2 ulog.imap.baidu.com::2 newloc.map.n.shifen.com以上写法会让连接超时等待，如果你希望连接立即拒绝断开，那么把"1.0.0.1"改为"0.0.0.0"，把"::2"改为"::"即可 锐速优化准备 使用时，首先需要在锐速官网注册账户，然后确定自己的内核是否在锐速的支持列表里，如果不在，请先更换内核 更换内核在进入你创建的Droplet→Setting→Kerenl,进行更换,记得重启 现在锐速已经不再提供免费版本.不过目前有人破解了,我还没试过 快速安装12345wget http://my.serverspeeder.com/d/ls/serverSpeederInstaller.tar.gztar xzvf serverSpeederInstaller.tar.gzbash serverSpeederInstaller.sh 输入在官网注册的账号密码进行安装，默认设置直接回车即可，然后输入y开机自动启动锐速，y立刻启动锐速。再进行优化设置 1vi /serverspeeder/etc/config 1rsc="1"，RSC网卡驱动模式 advinacc="1" 流量方向加速 maxmode="1" 最大传输模式 退出保存 重新启动锐速的服务 12/serverspeeder/bin/serverSpeeder.sh stop/serverspeeder/bin/serverSpeeder.sh start 客户端Windows Github下载 按照之前在配置文件里面填写的填入你的IP,密码等等 启动系统代理 先启动全局模式更新PAC,在切换到PAC模式 Android google play搜过 影梭 Github下载 配置同windows版 参考 中国电信国际出口是否存在网速问题 ShadowsocksR 服务端安装教程 digitalocean配置ipv6 ServerSpeeder 支持当前主流 Linux 系统的官方发行版本 如何以最暴力的方式防止百度定位泄露真实位置]]></content>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 效果器 </tag>
+            
+            <tag> EQ </tag>
+            
+            <tag> doyoudo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Github上配置Hexo 3.0</title>
+      <link href="/hexo.html"/>
+      <url>/hexo.html</url>
+      <content type="html"><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 —– Hexo官方</p><a id="more"></a><h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul><li>Node.js 推荐下载msi格式稳定版，新版已经会自动配置Path</li><li>Github Desktop Github官方出品 不需要再去配置SSH KEY ，但在线安装模式不开翻墙会有些麻烦</li></ul><h2 id="Git-Shell操作"><a href="#Git-Shell操作" class="headerlink" title="Git Shell操作"></a>Git Shell操作</h2><ul><li>打开桌面上的Git Shell,之后的操作都在这上面完成</li></ul><h2 id="安装Hexo-1"><a href="#安装Hexo-1" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul><li>在Git Shell输入以下代码</li></ul><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-cli -g</span><br><span class="line">npm <span class="keyword">install</span> hexo <span class="comment">--save</span></span><br></pre></td></tr></table></figure><h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><ul><li>根据喜好创建一个文件夹（F:\GitHub\hexo）用于放置你的hexo</li></ul><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd F:<span class="string">\GitHub\hexo</span></span><br><span class="line">hexo init</span><br><span class="line"><span class="built_in">npm</span> install</span><br></pre></td></tr></table></figure><h2 id="安装Hexo插件"><a href="#安装Hexo插件" class="headerlink" title="安装Hexo插件"></a>安装Hexo插件</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></span><br></pre></td></tr></table></figure><h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure><p>复合命令<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s -g</span></span><br></pre></td></tr></table></figure></p><p>完成会提示你在 0.0.0.0:4000查看，但会无法显示，去localhost:4000/查看</p><h1 id="部署静态网页到GitHub"><a href="#部署静态网页到GitHub" class="headerlink" title="部署静态网页到GitHub"></a>部署静态网页到GitHub</h1><h2 id="Github建立仓库"><a href="#Github建立仓库" class="headerlink" title="Github建立仓库"></a>Github建立仓库</h2><ul><li>创建一个Github账号</li><li>创建仓库，new repository,Repository name的格式必须是你的username.github.io（我之前把username错打成paraicde一直没发现，导致卡部署卡了好几天）<br><img src="https://heqqin1-1256984246.cos.ap-chengdu.myqcloud.com/webphoto/1.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDyxb0EKhuuCJSTIQqQZpw6sqEv55IQIff%26q-sign-time%3D1529835491%3B1529837291%26q-key-time%3D1529835491%3B1529837291%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D9450e58aa4ff14b9282c59f0b2602fbc47efdc0c&amp;token=e54da2630a05665756eacb815b2f10afc1359fe610001&amp;clientIP=182.146.237.115&amp;clientUA=614414d8-5b15-4d11-8168-7a586f78fefd" alt="repository"></li></ul><h2 id="部署deploy"><a href="#部署deploy" class="headerlink" title="部署deploy"></a>部署deploy</h2><ul><li>打开hexo_config.yml,修改最后一段,把所有的paracide改成你的username</li></ul><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: <span class="attribute">https</span>:<span class="comment">//github.com/paracide/paracide.github.io.git</span></span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure><h2 id="上传Github"><a href="#上传Github" class="headerlink" title="上传Github"></a>上传Github</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure><p>复合代码<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d -g</span></span><br></pre></td></tr></table></figure></p><p>第一次提交需要等到5分钟+，然后就可以看到你的静态博客了（例如paracide.github.io）</p><h2 id="如果你配置出了问题"><a href="#如果你配置出了问题" class="headerlink" title="如果你配置出了问题"></a>如果你配置出了问题</h2><p>很大原因是少了个 空格</p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol><li>安装和配置hexo 3.0</li><li>Hexo进阶折腾</li><li>如何搭建一个独立博客——简明Github Pages与Hexo教程</li><li>使用GitHub和Hexo搭建免费静态Blog</li><li>NEXT官方文档</li><li>如何在 VPS 上面搭建 hexo 博客(小白教程)</li></ol>]]></content>
+      
       <categories>
-        <category>科学上网</category>
+          
+          <category> Hexo </category>
+          
       </categories>
-      <tags>
-        <tag>DigitalOcean</tag>
-        <tag>Google</tag>
-        <tag>IPv6</tag>
-        <tag>ShadowSocks</tag>
-        <tag>VPS</tag>
-        <tag>锐速</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[你好 Hexo]]></title>
-    <url>%2Fhello-world.html</url>
-    <content type="text"><![CDATA[那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。虽然过不了多久死于插件升级无法恢复，又重新搭了一次。但WordPress确实非常非常的强大。 Markdown偶然在知乎上看到： Markdown语法 是程序员必备技巧 用过之后简直cooooooooooooooool。过去wordpress上简陋的写了那么几篇后，也算是明白为何大牛的文章排版是那么的高大上。 将本地文章存档改成Markdown语法后，迫不及待的想在WordPress实现。尝试了几个插件，发现这有点难： JecPack作为官方的插件，却因为GFW的问题无法连接，我SS试了DO和BWG2个机房也无济于事，原因不明。 JP Markdown是将JecPack中的Markdown组件单独拿出来，但并没有什么效果，可能是我语法不规范造成的原因，不过现在也无法去验证。 WP-Markdown和PrettyPress 加上代码高亮插件后，已经很好的实现Markdown。但并没有让我感到非常的满意，同时我也没继续深入设置这些插件了。 真正原因整个折腾过程中，电信的国际出口流量已经差让我抓狂。无论是用DO还是BWG机房的SS，在wordpress后台上的每一步操作都慢的让人崩溃，还时不时的丢包未响应。我也是实在是不想每几周就换一次DO机房的IP了（学生狗也没钱去买阿里云中转） Hexo查Markdown资料的过程中，对部分资料中提到的寄托在Github上的静态博客程序Hexo感兴趣。 全静态化，响应速度快，轻量级等优点，是wp没法比的 —-echopan 折腾好几天才完成Hexo的搭建，最大的问题却源于一个小小错误，具体内容会在之后的《Github上搭建Hexo》具体说明。酷炫的界面，畅快的响应速度，Markdown的强大支撑，建成后的Hexo令我非常非常满足。同时也深刻体验到git的便捷之处。 To The New World已经陆陆续续的将以前写的部分日志搬了回来，在Markdown语法下重新梳理似乎更加有了些秩序。后面的一段时间内，本Blog也应该不会有什么大的改动了。]]></content>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Shadowsocks的搭建</title>
+      <link href="/shadowsocks.html"/>
+      <url>/shadowsocks.html</url>
+      <content type="html"><![CDATA[<h1 id="VPS"><a href="#VPS" class="headerlink" title="VPS"></a>VPS</h1><h2 id="DigitalOcean"><a href="#DigitalOcean" class="headerlink" title="DigitalOcean"></a>DigitalOcean</h2><ul><li>Github的学生礼包赠送$100的赞助,可供使用20个月,现在是否还支持国内大学邮箱不确定，若干兑换码无法使用，在Support中Open a Support Ticket联系DO让他们帮助你。</li><li>DO首次充值 $5(最低)还会赠送$10。</li><li>电信平常速度仅300K/s左右(旧金山,新加坡机房),搭配上锐速,100M电信情况下最高达到过9M/s,Youtube1080P无压力,Twitch在换了SSR后已经无法流畅观看，原因未知。</li><li>使用几周后就会出现大规模的抽风,经测试是四川电信宽带的问题</li></ul><a id="more"></a><h2 id="Bandwagon"><a href="#Bandwagon" class="headerlink" title="Bandwagon"></a>Bandwagon</h2><ul><li>大名鼎鼎的搬瓦工,支持支付宝,以前便宜的包年$3.99/,$4.99已经没货了,最便宜的已达到$20一年</li><li>四川电信网络下表现仅有100~200K/s,学校移动宽带表现不错可达1M/s(满速).</li><li>支持一键搭建shadowsocks,很方便</li></ul><h2 id="电信"><a href="#电信" class="headerlink" title="电信"></a>电信</h2><ul><li>电信国际出口流量大规模丢包问题在知乎上找到了相关解答,解决方案似乎只有换网络商或者走CN2路线中转。</li></ul><h1 id="Shadowsocks的搭建"><a href="#Shadowsocks的搭建" class="headerlink" title="Shadowsocks的搭建"></a>Shadowsocks的搭建</h1><p>DigitalOcean为例部署</p><h2 id="Droplet创建"><a href="#Droplet创建" class="headerlink" title="Droplet创建"></a>Droplet创建</h2><ul><li>在官网右上角点击CreateDroplet,选择最低的$5/mo,仅用于翻墙已经足够了</li><li>服务器测速后进行选择<ul><li>Linux系统在锐速支持列表选择一持,如果没有,在创建好Droplte也可以在之后更换内核</li><li>在邮箱查收IP地址,用户名,密码</li></ul></li></ul><h2 id="Putty"><a href="#Putty" class="headerlink" title="Putty"></a>Putty</h2><ul><li>后续操作都要通过Putty连接VPS完成</li><li>下载安装Putty后打开,输入邮件里的IP,连接方式SSH,端口22</li><li>输入用户,密码(输入密码时并不会显示任何字符包括*,输完回车即可),密码需要连续输入2次,复制后右击即可粘贴成功,之后在输入两次新的密码</li></ul><h2 id="基本库安装"><a href="#基本库安装" class="headerlink" title="基本库安装"></a>基本库安装</h2><ul><li><p>由于Shadowsocks原作者clowwindy被请喝茶,这里使用breakwa11的shadowsocksR,(目测breakwa11也暂时不维护了)</p></li><li><p>以下命令均以root用户执行(复制,右击复制回车即可)</p></li></ul><p>0centos：</p><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="keyword">install</span> m2crypto git libsodium</span><br></pre></td></tr></table></figure><p>ubuntu/debian：</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="builtin-name">get</span> install m2crypto git</span><br></pre></td></tr></table></figure><h2 id="获取源代码"><a href="#获取源代码" class="headerlink" title="获取源代码"></a>获取源代码</h2><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">-b</span> manyuser https://github.com/breakwa11/shadowsocks.git</span><br></pre></td></tr></table></figure><ul><li><p>执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocks/shadowsocks)。</p><p>  根目录即 ./shadowsocks<br>  子目录即 ./shadowsocks/shadowsocks</p></li></ul><h2 id="服务端配置"><a href="#服务端配置" class="headerlink" title="服务端配置"></a>服务端配置</h2><h3 id="进入子目录："><a href="#进入子目录：" class="headerlink" title="进入子目录："></a>进入子目录：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> shadowsocks/shadowsocks</span><br></pre></td></tr></table></figure><h3 id="Vim编辑器"><a href="#Vim编辑器" class="headerlink" title="Vim编辑器"></a>Vim编辑器</h3><ul><li>Vim编辑器没接触过的人肯定不会用</li><li>这里简单以编写配置文件来说明下搭建shadowsocks时用到的命令</li></ul><ol><li>建立配置文件 ,会看到简单的json文件内容</li></ol><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi <span class="regexp">/etc/</span>shadowsocks.json</span><br></pre></td></tr></table></figure><ol start="2"><li><p>输入i 回车,进入插入模式</p></li><li><p>写入以下内容,完成后输入 :wq 即可保存退出</p></li></ol><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"server"</span>:<span class="string">"0.0.0.0"</span>,</span><br><span class="line">    <span class="attr">"server_ipv6"</span>:<span class="string">"::"</span>,</span><br><span class="line">    <span class="attr">"server_port"</span>:<span class="number">8388</span>,</span><br><span class="line">    <span class="attr">"local_address"</span>:<span class="string">"127.0.0.1"</span>,</span><br><span class="line">    <span class="attr">"local_port"</span>:<span class="number">1080</span>,</span><br><span class="line">    <span class="attr">"password"</span>:<span class="string">"mypassword"</span>,</span><br><span class="line">    <span class="attr">"timeout"</span>:<span class="number">300</span>,</span><br><span class="line">    <span class="attr">"method"</span>:<span class="string">"aes-256-cfb"</span>,</span><br><span class="line">    <span class="attr">"obfs"</span>:<span class="string">"http_simple"</span>,</span><br><span class="line">    <span class="attr">"fast_open"</span>:<span class="literal">false</span>,</span><br><span class="line">    <span class="attr">"workers"</span>:<span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一般情况下，只需要修改以下五项即可：</p><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"server_port"</span>:<span class="number">8388</span>,        <span class="comment">//端口</span></span><br><span class="line"><span class="string">"password"</span>:<span class="string">"password"</span>,     <span class="comment">//密码</span></span><br><span class="line"><span class="string">"protocol"</span>:<span class="string">"origin"</span>,       <span class="comment">//协议插件</span></span><br><span class="line"><span class="string">"obfs"</span>:<span class="string">"http_simple"</span>,      <span class="comment">//混淆插件</span></span><br><span class="line"><span class="string">"method"</span>:<span class="string">"aes-256-cfb"</span>,    <span class="comment">//加密方式</span></span><br></pre></td></tr></table></figure><p>###运行服务<br>运行子目录内的server.py：</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python server<span class="selector-class">.py</span> -c /etc/shadowsocks.json</span><br></pre></td></tr></table></figure><p>如果要在后台运行：</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python server<span class="selector-class">.py</span> -c /etc/shadowsocks<span class="selector-class">.json</span> -d start</span><br></pre></td></tr></table></figure><p>如果要停止/重启：</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python server<span class="selector-class">.py</span> -c /etc/shadowsocks<span class="selector-class">.json</span> -d restart</span><br></pre></td></tr></table></figure><p>查看日志：</p><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail <span class="params">-f</span> /<span class="built_in">var</span>/<span class="keyword">log</span>/shadowsocks.<span class="keyword">log</span></span><br></pre></td></tr></table></figure><h3 id="更新源代码"><a href="#更新源代码" class="headerlink" title="更新源代码"></a>更新源代码</h3><p>如果代码有更新可用本命令更新代码<br>进入shadowsocks目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> shadowsocks</span><br></pre></td></tr></table></figure><p>执行</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git pull</span></span><br></pre></td></tr></table></figure><p>成功后重启ss服务</p><h3 id="IPv6解决google学术被墙-google搜索验证码"><a href="#IPv6解决google学术被墙-google搜索验证码" class="headerlink" title="IPv6解决google学术被墙,google搜索验证码"></a>IPv6解决google学术被墙,google搜索验证码</h3><ul><li>DigtalOcean的部分IP会被Google学术屏蔽,修改hosts强制使用IPv6访问</li><li>最近Google搜索也经常验证码,还是得通过改hosts解决</li><li>IPv6解决验证码不起作用,几天后还是出现了验证码,在Google+上看到别人讨论,似乎google封了DO部分服务器,唉,换IP吧</li></ul><h4 id="创建vps时勾选IPv6"><a href="#创建vps时勾选IPv6" class="headerlink" title="创建vps时勾选IPv6"></a>创建vps时勾选IPv6</h4><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi <span class="regexp">/etc/</span>hosts</span><br></pre></td></tr></table></figure><p>文本末端加入</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4005</span><span class="selector-pseudo">:801</span><span class="selector-pseudo">::200e</span> <span class="selector-tag">google</span><span class="selector-class">.com</span></span><br><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4005</span><span class="selector-pseudo">:801</span><span class="selector-pseudo">::200e</span> <span class="selector-tag">www</span><span class="selector-class">.google</span><span class="selector-class">.com</span></span><br><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4007</span><span class="selector-pseudo">:805</span><span class="selector-pseudo">::100fscholar.google.cn</span></span><br><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4007</span><span class="selector-pseudo">:805</span><span class="selector-pseudo">::100fscholar.google.com</span></span><br><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4007</span><span class="selector-pseudo">:805</span><span class="selector-pseudo">::100fscholar.google.com.hk</span></span><br><span class="line">2607<span class="selector-pseudo">:f8b0</span><span class="selector-pseudo">:4007</span><span class="selector-pseudo">:805</span><span class="selector-pseudo">::100fscholar.l.google.com</span></span><br></pre></td></tr></table></figure><h3 id="更改时区"><a href="#更改时区" class="headerlink" title="更改时区"></a>更改时区</h3><p>SSR的部分插件需要本地时间和VPS时间相差不超过X分钟<br>需要更改VPS的时区</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm -rf <span class="regexp">/etc/</span>localtime</span><br><span class="line">ln -s <span class="regexp">/usr/</span>share<span class="regexp">/zoneinfo/</span>Asia<span class="regexp">/Shanghai /</span>etc<span class="regexp">/localtime</span></span><br></pre></td></tr></table></figure><h3 id="阻止百毒IP定位"><a href="#阻止百毒IP定位" class="headerlink" title="阻止百毒IP定位"></a>阻止百毒IP定位</h3><p>逛V2EX时候发现了这么一个问题,查了下SS的IP果然被定位了,虽然是我朋友家- -</p><p>SSR作者提供了这么一个解决方案</p><blockquote><p>在代理服务器及本地的HOST都添加如下</p></blockquote><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">api</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">ps</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">sv</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">offnavi</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">newvector</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">ulog</span><span class="selector-class">.imap</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line">1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">newloc</span><span class="selector-class">.map</span><span class="selector-class">.n</span><span class="selector-class">.shifen</span><span class="selector-class">.com</span></span><br><span class="line"></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">api</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">ps</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">sv</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">offnavi</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">newvector</span><span class="selector-class">.map</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">ulog</span><span class="selector-class">.imap</span><span class="selector-class">.baidu</span><span class="selector-class">.com</span></span><br><span class="line"><span class="selector-pseudo">::2</span> <span class="selector-tag">newloc</span><span class="selector-class">.map</span><span class="selector-class">.n</span><span class="selector-class">.shifen</span><span class="selector-class">.com</span></span><br><span class="line">以上写法会让连接超时等待，如果你希望连接立即拒绝断开，那么把"1<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>"改为"0<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.0</span>"，把"<span class="selector-pseudo">::2"</span>改为"<span class="selector-pseudo">::"</span>即可</span><br></pre></td></tr></table></figure><h2 id="锐速优化"><a href="#锐速优化" class="headerlink" title="锐速优化"></a>锐速优化</h2><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul><li>使用时，首先需要在锐速官网注册账户，然后确定自己的内核是否在锐速的支持列表里，如果不在，请先更换内核</li><li>更换内核在进入你创建的Droplet→Setting→Kerenl,进行更换,记得重启</li><li>现在锐速已经不再提供免费版本.不过目前有人破解了,我还没试过</li></ul><h3 id="快速安装"><a href="#快速安装" class="headerlink" title="快速安装"></a>快速安装</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget http:<span class="comment">//my.serverspeeder.com/d/ls/serverSpeederInstaller.tar.gz</span></span><br><span class="line"></span><br><span class="line">tar xzvf serverSpeederInstaller<span class="selector-class">.tar</span><span class="selector-class">.gz</span></span><br><span class="line"></span><br><span class="line">bash serverSpeederInstaller.sh</span><br></pre></td></tr></table></figure><p>输入在官网注册的账号密码进行安装，默认设置直接回车即可，然后输入<br>y开机自动启动锐速，y立刻启动锐速。<br>再进行优化设置</p><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /serverspeeder/etc/<span class="built_in">config</span></span><br></pre></td></tr></table></figure><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">rsc</span>=<span class="string">"1"</span>，RSC网卡驱动模式 <span class="attribute">advinacc</span>=<span class="string">"1"</span> 流量方向加速 <span class="attribute">maxmode</span>=<span class="string">"1"</span> 最大传输模式</span><br></pre></td></tr></table></figure><p>退出保存</p><p>重新启动锐速的服务</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/serverspeeder/bin/serverSpeeder<span class="selector-class">.sh</span> stop</span><br><span class="line">/serverspeeder/bin/serverSpeeder<span class="selector-class">.sh</span> start</span><br></pre></td></tr></table></figure><h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><ol><li>Github下载</li><li>按照之前在配置文件里面填写的填入你的IP,密码等等</li><li>启动系统代理</li><li>先启动全局模式更新PAC,在切换到PAC模式</li></ol><h3 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h3><ul><li>google play搜过 影梭</li><li>Github下载</li><li>配置同windows版</li></ul><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ol><li>中国电信国际出口是否存在网速问题</li><li>ShadowsocksR 服务端安装教程</li><li>digitalocean配置ipv6</li><li>ServerSpeeder 支持当前主流 Linux 系统的官方发行版本</li><li>如何以最暴力的方式防止百度定位泄露真实位置</li></ol>]]></content>
+      
       <categories>
-        <category>互联网建站</category>
+          
+          <category> 科学上网 </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> DigitalOcean </tag>
+            
+            <tag> Google </tag>
+            
+            <tag> IPv6 </tag>
+            
+            <tag> ShadowSocks </tag>
+            
+            <tag> VPS </tag>
+            
+            <tag> 锐速 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>你好 Hexo</title>
+      <link href="/hello-world.html"/>
+      <url>/hello-world.html</url>
+      <content type="html"><![CDATA[<p>那时想搭建一个主页只是觉得：$5/m的VPS只用来搭建SS太浪费了。<br>在研究SS搭建过程了解到很多人将自己的个人主页放在了VPS上，他们都提到了WordPress。<br>查了很多资料，忙活一天总算搭建成功，并发布一篇 Hello World。<br>虽然过不了多久死于插件升级无法恢复，又重新搭了一次。<br>但WordPress确实非常非常的强大。</p><a id="more"></a><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>偶然在知乎上看到：</p><blockquote><p>Markdown语法 是程序员必备技巧</p></blockquote><p>用过之后简直cooooooooooooooool。<br>过去wordpress上简陋的写了那么几篇后，也算是明白为何大牛的文章排版是那么的高大上。</p><p>将本地文章存档改成Markdown语法后，迫不及待的想在WordPress实现。<br>尝试了几个插件，发现这有点难：</p><ol><li>JecPack作为官方的插件，却因为GFW的问题无法连接，我SS试了DO和BWG2个机房也无济于事，原因不明。</li><li>JP Markdown是将JecPack中的Markdown组件单独拿出来，但并没有什么效果，可能是我语法不规范造成的原因，不过现在也无法去验证。</li><li>WP-Markdown和PrettyPress 加上代码高亮插件后，已经很好的实现Markdown。但并没有让我感到非常的满意，同时我也没继续深入设置这些插件了。</li></ol><h2 id="真正原因"><a href="#真正原因" class="headerlink" title="真正原因"></a>真正原因</h2><p>整个折腾过程中，电信的国际出口流量已经差让我抓狂。<br>无论是用DO还是BWG机房的SS，在wordpress后台上的每一步操作都慢的让人崩溃，还时不时的丢包未响应。<br>我也是实在是不想每几周就换一次DO机房的IP了（学生狗也没钱去买阿里云中转）</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>查Markdown资料的过程中，对部分资料中提到的寄托在Github上的静态博客程序Hexo感兴趣。</p><blockquote><p>全静态化，响应速度快，轻量级等优点，是wp没法比的 —-echopan </p></blockquote><p>折腾好几天才完成Hexo的搭建，最大的问题却源于一个小小错误，具体内容会在之后的《Github上搭建Hexo》具体说明。<br>酷炫的界面，畅快的响应速度，Markdown的强大支撑，建成后的Hexo令我非常非常满足。<br>同时也深刻体验到git的便捷之处。</p><h2 id="To-The-New-World"><a href="#To-The-New-World" class="headerlink" title="To The New World"></a>To The New World</h2><p>已经陆陆续续的将以前写的部分日志搬了回来，在Markdown语法下重新梳理似乎更加有了些秩序。<br>后面的一段时间内，本Blog也应该不会有什么大的改动了。</p>]]></content>
+      
+      <categories>
+          
+          <category> 互联网建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>
