@@ -91,10 +91,24 @@
 <meta property="og:site_name" content="布莱恩怒风的小站">
 <meta property="og:description" content="放上昨天视频的教程。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-08T06:06:43.035Z">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/1.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/2.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/3.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/4.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/5.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/6.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/7.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/8.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/9.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/10.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/11.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/12.jpg">
+<meta property="og:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/13.jpg">
+<meta property="og:updated_time" content="2018-07-08T08:10:14.471Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Adobe系列打卡--第九天--After Effects系列--制作动态条形图教程">
 <meta name="twitter:description" content="放上昨天视频的教程。">
+<meta name="twitter:image" content="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/1.jpg">
 
 
 
@@ -351,8 +365,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-07T18:11:15+08:00">
-                2018-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-08T17:11:15+08:00">
+                2018-07-08
               </time>
             
 
@@ -427,7 +441,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  35 字
+                  1,263 字
                 </span>
               
 
@@ -443,7 +457,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  5 分钟
                 </span>
               
             </div>
@@ -470,7 +484,82 @@
 
 <h1 id="高清版本连接"><a href="#高清版本连接" class="headerlink" title="高清版本连接"></a>高清版本连接</h1><p><a href="https://www.bilibili.com/video/av26359399/" target="_blank" rel="noopener">【B站连接】</a></p>
 <p><a href="https://v.qq.com/x/page/s0714zm7tyi.html" target="_blank" rel="noopener">【腾讯视频连接】</a></p>
-<h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2>
+<h1 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="数据计算及参数设定"><a href="#数据计算及参数设定" class="headerlink" title="数据计算及参数设定"></a>数据计算及参数设定</h3><ol>
+<li><p>配色确定。给大家介绍几个比较好用的配色网站，Flat UI Colors、Colorhunt、LOL Colors、WebGradients，这几个都是我平时常用的配色网站，想用的小伙伴自己百度一下名字就可以了。</p>
+<p>具体参数如下：<br><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/1.jpg" width="10%" height="10%"></p>
+</li>
+<li><p>条形图像素确定。思路如下，把第一名（成都）的GDP作为参考标准，标准的像素大小确定之后，其余城市的大小同比缩放。</p>
+<p>由于画面大小为1920×1080，成都市的条形图占整个屏幕的85%，即为长:1920×0.85=1632（像素），宽：28（像素）。</p>
+</li>
+<li><p>数据录入及参数确定。将网上收集到的数据导入到EXCEL工作表，并进行简单计算。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/2.jpg" width="25%" height="25%"></p>
+<ol start="4">
+<li>时间轴的确定。1998年至2017年一共19年，0秒0帧开始时，所有城市均为0，动画到3秒0帧时，数据为1998年的数据，之后每3秒为1年。</li>
+</ol>
+<h3 id="底图确定"><a href="#底图确定" class="headerlink" title="底图确定"></a>底图确定</h3><p>由于跟随时间的变化，每个城市的排名不同，我们就要确定每个城市的条形图所在位置，位置草图我用PS制作如下：</p>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/3.jpg" width="75%" height="75"></p>
+<p>在编辑过程中，将草图置于最底层，按照时间轴变化各城市的排名。</p>
+<h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><h3 id="建立合成"><a href="#建立合成" class="headerlink" title="建立合成"></a>建立合成</h3><p>打开AE，新建一个合成，命名为总合成，宽度1920，长度1080，每秒30帧，持续时间1分10秒。</p>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/4.jpg" width="50%" height="50"></p>
+<h3 id="制作年份随时间变化的动画"><a href="#制作年份随时间变化的动画" class="headerlink" title="制作年份随时间变化的动画"></a>制作年份随时间变化的动画</h3><ol>
+<li><p>使用Ctrl+Y命令，建立一个纯色固态层（颜色随意反正都会消失）。</p>
+</li>
+<li><p>在效果和预设选项卡中，搜索找到编号。并拖动到步骤1创建的纯色固态层上。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/5.jpg" width="25%" height="25"></p>
+<ol start="3">
+<li>在效果控件中，将数值/位移/随机表改为1998，小数位数改为0，填充颜色为#A09FA0，调整位置属性到图上适合的地方，大小改为165。（想要更改字体在下图中“选项…”位置进行更改）</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/6.jpg" width="25%" height="25"></p>
+<ol start="4">
+<li><p>选择3秒00帧，单击数值前面的小秒表（见上图），加入关键帧。然后选择6秒00帧，修改数值为1999（修改后自动加入关键帧）；12秒00帧，修改数值为2000……57秒00帧，修改数值为2016；1分00秒00帧，修改数值为2017。</p>
+</li>
+<li><p>选择2秒00帧，按T键调出图层的不透明度选项，调整到0%并加入关键帧；选择3秒00帧，调整不透明度为100%。（此步骤为加入渐变效果）</p>
+</li>
+</ol>
+<h3 id="制作数轴"><a href="#制作数轴" class="headerlink" title="制作数轴"></a>制作数轴</h3><ol>
+<li><p>新建一个合成，命名为数轴（参数与总合成一致）</p>
+</li>
+<li><p>使用文字工具和钢笔工具画出数轴和文字，如下图。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/7.jpg" width="50%" height="50"></p>
+<ol start="3">
+<li><p>根据时间轴调整各个数轴的位置（每3秒加入1个帧），比如在30秒00帧的时候，对应的数值为2007年，当时成都的GDP为3324.36（亿元）对应1632像素，所以，相应几个数轴距0数轴的位置为：500数轴245.5像素、1000数轴491像素、1500数轴736像素……</p>
+<p>然后再在合适的位置加入不透明度，这样就实现了数轴跟随时间移动和消失的动画。</p>
+</li>
+</ol>
+<h3 id="制作条形图动画（以泸州为例）"><a href="#制作条形图动画（以泸州为例）" class="headerlink" title="制作条形图动画（以泸州为例）"></a>制作条形图动画（以泸州为例）</h3><ol>
+<li><p>新建一个合成，使用Ctrl+Y新建一个纯色固态层，在效果和预设中找到编号，并拖动到该固态层，并在3秒00帧处添加数值为“156.10”的关键帧。（具体步骤参考“制作年份随时间变化的动画”）</p>
+</li>
+<li><p>使用矩形工具，画出一个矩形，调整大小为1632×28（像素），填充颜色为#4CAF50，使用向后平移（锚点）工具，将矩形的锚点改到左方中间位置。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/8.jpg" width="25%" height="25"></p>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/9.jpg" width="25%" height="25"></p>
+<ol start="3">
+<li><p>使用文字工具，建立2个内容为“泸州”的文字图层，一个填充颜色为#4CAF50、无边框，一个填充颜色为白色、边框颜色为#4CAF50。</p>
+</li>
+<li><p>选择3秒00帧，找到此时城市排名为“6”，对比草图调整各个图层的相应位置，并加入位置关键帧。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/10.jpg" width="50%" height="50"></p>
+<ol start="5">
+<li>选中所有图层，按U键调出各个图层的属性，使用Shift+T加入不透明度属性（此处Shift+T等于是在以前的属性中添加了一个新的属性，若按T键则是只显示不透明度属性）。</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/11.jpg" width="50%" height="50"></p>
+<ol start="6">
+<li><p>在0秒、3秒、6秒……57秒、60秒调整各个图层的位置，并加入数值、位置、不透明度等关键帧。</p>
+<p>注意：在预览的时候可能会发现，图像的移动并不是线性移动的，有时候会成抛物线运动，这对数值而言就显得不够严禁。此时可以选中对应的关键帧，选择“关键帧插值”，将空间插值改为“线性”。</p>
+</li>
+</ol>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/12.jpg" width="50%" height="50"></p>
+<p><img src="https://heqqin-1256984246.cos.ap-chengdu.myqcloud.com/ae/1/13.jpg" width="50%" height="50"></p>
+<p>重复以上步骤，完成所有城市的条形图，最后使用AME导出成MP4格式。</p>
+
       
     </div>
     
@@ -735,7 +824,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#最后效果"><span class="nav-number">1.</span> <span class="nav-text">最后效果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#高清版本连接"><span class="nav-number">2.</span> <span class="nav-text">高清版本连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#操作步骤"><span class="nav-number">3.</span> <span class="nav-text">操作步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备"><span class="nav-number">3.1.</span> <span class="nav-text">准备</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#最后效果"><span class="nav-number">1.</span> <span class="nav-text">最后效果</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#高清版本连接"><span class="nav-number">2.</span> <span class="nav-text">高清版本连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#操作步骤"><span class="nav-number">3.</span> <span class="nav-text">操作步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">3.1.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#数据计算及参数设定"><span class="nav-number">3.1.1.</span> <span class="nav-text">数据计算及参数设定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#底图确定"><span class="nav-number">3.1.2.</span> <span class="nav-text">底图确定</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#具体步骤"><span class="nav-number">3.2.</span> <span class="nav-text">具体步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#建立合成"><span class="nav-number">3.2.1.</span> <span class="nav-text">建立合成</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#制作年份随时间变化的动画"><span class="nav-number">3.2.2.</span> <span class="nav-text">制作年份随时间变化的动画</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#制作数轴"><span class="nav-number">3.2.3.</span> <span class="nav-text">制作数轴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#制作条形图动画（以泸州为例）"><span class="nav-number">3.2.4.</span> <span class="nav-text">制作条形图动画（以泸州为例）</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>

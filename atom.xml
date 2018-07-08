@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zengwy.com/"/>
-  <updated>2018-07-08T06:06:43.035Z</updated>
+  <updated>2018-07-08T08:10:14.471Z</updated>
   <id>http://www.zengwy.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Adobe系列打卡--第九天--After Effects系列--制作动态条形图教程</title>
     <link href="http://www.zengwy.com/ae9.html"/>
     <id>http://www.zengwy.com/ae9.html</id>
-    <published>2018-07-07T10:11:15.000Z</published>
-    <updated>2018-07-08T06:06:43.035Z</updated>
+    <published>2018-07-08T09:11:15.000Z</published>
+    <updated>2018-07-08T08:10:14.471Z</updated>
     
     <summary type="html">
     
@@ -369,9 +369,9 @@
       <category term="Hexo" scheme="http://www.zengwy.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
-    
       <category term="GitHub" scheme="http://www.zengwy.com/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="http://www.zengwy.com/tags/Hexo/"/>
     
   </entry>
   
