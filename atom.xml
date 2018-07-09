@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zengwy.com/"/>
-  <updated>2018-07-08T08:10:14.471Z</updated>
+  <updated>2018-07-09T06:28:33.032Z</updated>
   <id>http://www.zengwy.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adobe系列打卡--第十天--After Effects系列--用Saber插件做一个酷炫的片头</title>
+    <link href="http://www.zengwy.com/ae10.html"/>
+    <id>http://www.zengwy.com/ae10.html</id>
+    <published>2018-07-09T06:17:13.000Z</published>
+    <updated>2018-07-09T06:28:33.032Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哈喽大家吼啊，今天教大家来做一个片头。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Adobe系列" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/"/>
+    
+      <category term="After Effects教程" scheme="http://www.zengwy.com/categories/Adobe%E7%B3%BB%E5%88%97/After-Effects%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Adobe" scheme="http://www.zengwy.com/tags/Adobe/"/>
+    
+      <category term="After Effects" scheme="http://www.zengwy.com/tags/After-Effects/"/>
+    
+      <category term="教程" scheme="http://www.zengwy.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Adobe系列打卡--第九天--After Effects系列--制作动态条形图教程</title>
